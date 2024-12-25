@@ -15008,17 +15008,11 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_111
+  name: US_United States_ss_113
   password: amazonskr05
   port: 443
-  server: 52.79.248.193
+  server: 3.35.206.24
   tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_114
-  password: amazonskr05
-  port: 443
-  server: 52.32.68.164
   type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_115
@@ -15030,22 +15024,47 @@ proxies:
   name: US_United States_ss_117
   password: amazonskr05
   port: 443
-  server: 34.222.132.123
+  server: 43.200.1.13
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_118
+  password: amazonskr05
+  port: 443
+  server: 13.114.67.166
   type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_119
   password: amazonskr05
   port: 443
-  server: 43.200.1.13
+  server: 34.222.132.123
   type: ss
-- name: US_United States_trojan_1114
-  password: 71409d3e488548e8bb076d229778f008
+- cipher: rc4-md5
+  name: US_United States_ss_1110
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.45
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
   port: 443
-  server: 38.99.82.225
-  skip-cert-verify: true
-  sni: jobsfortheworldtoday.com
-  type: trojan
-- name: US_United States_trojan_1120
+  server: 43.203.243.93
+  type: ss
+- cipher: rc4-md5
+  name: US_United States_ss_1112
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1114
+  password: amazonskr05
+  port: 443
+  server: 52.79.248.193
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1126
   network: ws
   password: TGCitizenScyu
   port: 443
@@ -15058,7 +15077,7 @@ proxies:
       Host: maikeaxiang.me
     path: /?ed=2560
 - cipher: aes-128-gcm
-  name: US_United States_ss_1125
+  name: US_United States_ss_1131
   password: shadowsocks
   port: 443
   server: 149.22.87.204
@@ -15066,7 +15085,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1127
+  name: US_United States_vmess_1133
   network: ws
   port: '80'
   server: www.aetv.com
@@ -15084,7 +15103,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: US_United States_vmess_1128
+  name: US_United States_vmess_1134
   network: grpc
   port: '443'
   server: America.com
@@ -15094,7 +15113,7 @@ proxies:
   tls: true
   type: vmess
   uuid: 33f6d8b0-81f8-4fce-b3df-79dc8fd6d8c5
-- name: US_United States_trojan_1129
+- name: US_United States_trojan_1135
   network: ws
   password: TGCitizenScyu
   port: 2087
@@ -15107,20 +15126,13 @@ proxies:
       Host: maikeaxiang.me
     path: /?ed=2560
 - cipher: aes-256-cfb
-  name: US_United States_ss_1130
+  name: US_United States_ss_1136
   password: amazonskr05
   port: 443
   server: 13.112.235.194
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1131
-  password: amazonskr05
-  port: 443
-  server: 3.35.206.24
-  tfo: false
-  type: ss
-- name: US_United States_trojan_1132
+- name: US_United States_trojan_1137
   network: tcp
   password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
   port: 443
@@ -15130,7 +15142,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1134
+  name: US_United States_vmess_1139
   network: ws
   port: '443'
   server: primer.ibilibi.li
@@ -15144,6 +15156,62 @@ proxies:
     headers:
       Host: loki.oracle
     path: /farcry?ed=2560
+- name: TW_Taiwan_reality_0
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
+- name: TW_Taiwan_reality_1
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
+- name: TW_Taiwan_reality_2
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
+- name: TW_Taiwan_reality_3
+  type: vless
+  server: 36.226.252.19
+  port: 56870
+  uuid: 7c4efc45-42f7-48d8-a741-6093cd2886a7
+  network: tcp
+  tls: true
+  udp: true
+  flow: xtls-rprx-vision
+  client-fingerprint: chrome
+  servername: www.yahoo.com
+  reality-opts:
+    public-key: 9J1xcf0tI7OQ8Z6ULcruIIjsM5AK3nZTXdOK6GIhwmA
+    short-id: 239c3cef
 proxy-groups:
 - name: 节点选择
   type: select
@@ -16149,21 +16217,27 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_ss_114
+  - US_United States_ss_113
   - US_United States_ss_115
   - US_United States_ss_117
+  - US_United States_ss_118
   - US_United States_ss_119
-  - US_United States_trojan_1114
-  - US_United States_trojan_1120
-  - US_United States_ss_1125
-  - US_United States_vmess_1127
-  - US_United States_vmess_1128
-  - US_United States_trojan_1129
-  - US_United States_ss_1130
+  - US_United States_ss_1110
+  - US_United States_ss_1111
+  - US_United States_ss_1112
+  - US_United States_ss_1114
+  - US_United States_trojan_1126
   - US_United States_ss_1131
-  - US_United States_trojan_1132
+  - US_United States_vmess_1133
   - US_United States_vmess_1134
+  - US_United States_trojan_1135
+  - US_United States_ss_1136
+  - US_United States_trojan_1137
+  - US_United States_vmess_1139
+  - TW_Taiwan_reality_0
+  - TW_Taiwan_reality_1
+  - TW_Taiwan_reality_2
+  - TW_Taiwan_reality_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -17169,21 +17243,27 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_ss_114
+  - US_United States_ss_113
   - US_United States_ss_115
   - US_United States_ss_117
+  - US_United States_ss_118
   - US_United States_ss_119
-  - US_United States_trojan_1114
-  - US_United States_trojan_1120
-  - US_United States_ss_1125
-  - US_United States_vmess_1127
-  - US_United States_vmess_1128
-  - US_United States_trojan_1129
-  - US_United States_ss_1130
+  - US_United States_ss_1110
+  - US_United States_ss_1111
+  - US_United States_ss_1112
+  - US_United States_ss_1114
+  - US_United States_trojan_1126
   - US_United States_ss_1131
-  - US_United States_trojan_1132
+  - US_United States_vmess_1133
   - US_United States_vmess_1134
+  - US_United States_trojan_1135
+  - US_United States_ss_1136
+  - US_United States_trojan_1137
+  - US_United States_vmess_1139
+  - TW_Taiwan_reality_0
+  - TW_Taiwan_reality_1
+  - TW_Taiwan_reality_2
+  - TW_Taiwan_reality_3
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
