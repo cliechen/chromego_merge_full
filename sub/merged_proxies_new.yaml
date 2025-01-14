@@ -15008,60 +15008,94 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_112
+  name: US_United States_ss_114
+  password: amazonskr05
+  port: 443
+  server: 54.180.9.243
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_115
+  password: amazonskr05
+  port: 443
+  server: 54.179.150.222
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_116
   password: amazonskr05
   port: 443
   server: 3.1.204.240
   type: ss
 - cipher: aes-256-cfb
+  name: US_United States_ss_118
+  password: amazonskr05
+  port: 443
+  server: 13.124.147.239
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_119
+  password: amazonskr05
+  port: 443
+  server: 43.203.242.247
+  type: ss
+- cipher: aes-256-cfb
   name: US_United States_ss_1110
   password: amazonskr05
   port: 443
-  server: 54.179.104.38
+  server: 35.89.145.123
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: US_United States_ss_1111
   password: amazonskr05
   port: 443
-  server: 13.250.30.129
+  server: 13.113.190.198
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: US_United States_ss_1112
   password: amazonskr05
   port: 443
-  server: 18.142.51.90
+  server: 13.250.30.129
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1113
-  password: u17T3BvpYaaiuW2c
-  port: 443
-  server: series-a2-mec.varzesh360.co
-  type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_1114
   password: amazonskr05
   port: 443
-  server: 13.113.190.198
+  server: 18.183.178.120
   type: ss
   udp: true
-- alterId: 64
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: US_United States_vmess_1116
-  network: ws
-  port: 38007
-  server: 38.174.190.80
+- cipher: aes-256-cfb
+  name: US_United States_ss_1116
+  password: amazonskr05
+  port: 443
+  server: 54.179.76.173
+  type: ss
+  udp: true
+- name: US_United States_trojan_1119
+  password: Oe5CMj3tiO
+  port: 1935
+  server: 3.127.116.35
+  sni: x2ger-amazon.devefun.net
+  type: trojan
+- name: US_United States_trojan_1120
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    path: /path/102206282005
-- name: US_United States_trojan_1125
+  sni: us01.trojanyyds.xyz
+  type: trojan
+- name: US_United States_trojan_1121
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1130
   network: tcp
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
@@ -15069,17 +15103,9 @@ proxies:
   skip-cert-verify: false
   sni: tw01.trojanyyds.xyz
   type: trojan
-- name: US_United States_trojan_1126
-  network: tcp
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: 74.226.136.204
-  skip-cert-verify: false
-  sni: tw02.trojanyyds.xyz
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1129
+  name: US_United States_vmess_1134
   network: ws
   port: '443'
   server: jp.cowvpn.org
@@ -15093,7 +15119,7 @@ proxies:
     headers:
       Host: jpcf.cowvpn.org
     path: /cctv13/vmess_jpcf
-- name: US_United States_trojan_1136
+- name: US_United States_trojan_1141
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
   server: sg02.trojanyyds.xyz
@@ -15102,7 +15128,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1138
+  name: US_United States_vmess_1143
   network: ws
   port: '443'
   server: us1.cowvpn.org
@@ -15117,40 +15143,19 @@ proxies:
       Host: us1cf.cowvpn.org
     path: /cctv13/vmess_us1cf
 - cipher: aes-256-cfb
-  name: US_United States_ss_1140
+  name: US_United States_ss_1145
   password: amazonskr05
   port: 443
   server: 52.198.226.5
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1141
-  password: amazonskr05
-  port: 443
-  server: 13.124.147.239
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1142
+  name: US_United States_ss_1146
   password: amazonskr05
   port: 443
   server: 18.183.217.250
   tfo: false
   type: ss
-- name: US_United States_trojan_1146
-  password: Oe5CMj3tiO
-  port: 1935
-  server: 3.127.116.35
-  skip-cert-verify: false
-  sni: x2ger-amazon.devefun.net
-  type: trojan
-- name: US_United States_trojan_1148
-  password: JFchk1TxFG
-  port: 1935
-  server: 13.39.244.105
-  skip-cert-verify: false
-  sni: x1fr-amazon.devefun.net
-  type: trojan
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16212,23 +16217,25 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_112
+  - US_United States_ss_114
+  - US_United States_ss_115
+  - US_United States_ss_116
+  - US_United States_ss_118
+  - US_United States_ss_119
   - US_United States_ss_1110
   - US_United States_ss_1111
   - US_United States_ss_1112
-  - US_United States_ss_1113
   - US_United States_ss_1114
-  - US_United States_vmess_1116
-  - US_United States_trojan_1125
-  - US_United States_trojan_1126
-  - US_United States_vmess_1129
-  - US_United States_trojan_1136
-  - US_United States_vmess_1138
-  - US_United States_ss_1140
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_trojan_1146
-  - US_United States_trojan_1148
+  - US_United States_ss_1116
+  - US_United States_trojan_1119
+  - US_United States_trojan_1120
+  - US_United States_trojan_1121
+  - US_United States_trojan_1130
+  - US_United States_vmess_1134
+  - US_United States_trojan_1141
+  - US_United States_vmess_1143
+  - US_United States_ss_1145
+  - US_United States_ss_1146
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17238,23 +17245,25 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_112
+  - US_United States_ss_114
+  - US_United States_ss_115
+  - US_United States_ss_116
+  - US_United States_ss_118
+  - US_United States_ss_119
   - US_United States_ss_1110
   - US_United States_ss_1111
   - US_United States_ss_1112
-  - US_United States_ss_1113
   - US_United States_ss_1114
-  - US_United States_vmess_1116
-  - US_United States_trojan_1125
-  - US_United States_trojan_1126
-  - US_United States_vmess_1129
-  - US_United States_trojan_1136
-  - US_United States_vmess_1138
-  - US_United States_ss_1140
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_trojan_1146
-  - US_United States_trojan_1148
+  - US_United States_ss_1116
+  - US_United States_trojan_1119
+  - US_United States_trojan_1120
+  - US_United States_trojan_1121
+  - US_United States_trojan_1130
+  - US_United States_vmess_1134
+  - US_United States_trojan_1141
+  - US_United States_vmess_1143
+  - US_United States_ss_1145
+  - US_United States_ss_1146
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
