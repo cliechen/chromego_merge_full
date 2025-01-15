@@ -15007,21 +15007,15 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-256-gcm
-  name: US_United States_ss_112
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 23.157.40.5
-  type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_116
+  name: US_United States_ss_113
   password: amazonskr05
   port: 443
-  server: 54.180.9.243
+  server: 35.89.145.123
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1110
+  name: US_United States_ss_118
   password: amazonskr05
   port: 443
   server: 13.250.30.129
@@ -15031,9 +15025,24 @@ proxies:
   name: US_United States_ss_1111
   password: amazonskr05
   port: 443
-  server: 3.1.204.240
+  server: 13.113.190.198
   type: ss
-- name: US_United States_trojan_1124
+  udp: true
+- name: US_United States_trojan_1113
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: us01.trojanyyds.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1114
+  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+  port: 443
+  server: 74.226.136.204
+  skip-cert-verify: true
+  sni: us01.trojanyyds.xyz
+  type: trojan
+- name: US_United States_trojan_1123
   network: tcp
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
@@ -15041,15 +15050,7 @@ proxies:
   skip-cert-verify: false
   sni: tw01.trojanyyds.xyz
   type: trojan
-- name: US_United States_trojan_1125
-  network: tcp
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: 74.226.136.204
-  skip-cert-verify: false
-  sni: tw02.trojanyyds.xyz
-  type: trojan
-- name: US_United States_trojan_1134
+- name: US_United States_trojan_1133
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
   server: sg02.trojanyyds.xyz
@@ -15058,7 +15059,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1136
+  name: US_United States_vmess_1135
   network: ws
   port: '443'
   server: us.cowvpn.org
@@ -15073,28 +15074,28 @@ proxies:
       Host: us2cf.cowvpn.org
     path: /cctv13/vmess_us1
 - cipher: chacha20-ietf
-  name: US_United States_ss_1137
+  name: US_United States_ss_1136
   password: asd123456
   port: 8388
   server: 137.175.113.215
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1138
+  name: US_United States_ss_1137
   password: amazonskr05
   port: 443
   server: 18.136.123.141
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1139
+  name: US_United States_ss_1138
   password: amazonskr05
   port: 443
   server: 43.201.19.60
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1140
+  name: US_United States_ss_1139
   password: amazonskr05
   port: 443
   server: 18.181.199.99
@@ -16161,18 +16162,18 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_112
-  - US_United States_ss_116
-  - US_United States_ss_1110
+  - US_United States_ss_113
+  - US_United States_ss_118
   - US_United States_ss_1111
-  - US_United States_trojan_1124
-  - US_United States_trojan_1125
-  - US_United States_trojan_1134
-  - US_United States_vmess_1136
+  - US_United States_trojan_1113
+  - US_United States_trojan_1114
+  - US_United States_trojan_1123
+  - US_United States_trojan_1133
+  - US_United States_vmess_1135
+  - US_United States_ss_1136
   - US_United States_ss_1137
   - US_United States_ss_1138
   - US_United States_ss_1139
-  - US_United States_ss_1140
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17182,18 +17183,18 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_112
-  - US_United States_ss_116
-  - US_United States_ss_1110
+  - US_United States_ss_113
+  - US_United States_ss_118
   - US_United States_ss_1111
-  - US_United States_trojan_1124
-  - US_United States_trojan_1125
-  - US_United States_trojan_1134
-  - US_United States_vmess_1136
+  - US_United States_trojan_1113
+  - US_United States_trojan_1114
+  - US_United States_trojan_1123
+  - US_United States_trojan_1133
+  - US_United States_vmess_1135
+  - US_United States_ss_1136
   - US_United States_ss_1137
   - US_United States_ss_1138
   - US_United States_ss_1139
-  - US_United States_ss_1140
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
