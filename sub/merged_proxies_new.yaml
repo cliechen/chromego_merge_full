@@ -15007,58 +15007,58 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-256-cfb
-  name: US_United States_ss_112
-  password: amazonskr05
-  port: 443
-  server: 3.36.116.141
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_113
-  password: amazonskr05
-  port: 443
-  server: 13.125.6.123
-  type: ss
 - cipher: aes-256-gcm
-  name: US_United States_ss_114
-  password: pKEW8JPByTVTLtM
-  port: 443
+  name: US_United States_ss_111
+  password: g5MeD6Ft3CWlJId
+  port: 5004
   server: 23.157.40.5
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1128
+  name: US_United States_ss_1127
   password: amazonskr05
   port: 443
   server: 54.179.54.70
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1131
+  name: US_United States_ss_1130
   password: amazonskr05
   port: 443
-  server: 34.221.178.146
+  server: 54.187.174.202
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1134
-  password: amazonskr05
+- cipher: aes-128-cfb
+  name: US_United States_ss_1135
+  password: shadowsocks
   port: 443
-  server: 13.229.206.58
+  server: 184.170.241.194
   type: ss
-  udp: true
 - cipher: rc4-md5
-  name: US_United States_ss_1136
+  name: US_United States_ss_1137
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 23.251.121.242
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1137
+  name: US_United States_ss_1138
+  password: amazonskr05
+  port: 443
+  server: 3.36.116.141
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1139
   password: amazonskr05
   port: 443
   server: 13.250.116.31
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1140
+  password: amazonskr05
+  port: 443
+  server: 13.229.206.58
   type: ss
   udp: true
 - alterId: 0
@@ -15068,7 +15068,7 @@ proxies:
     method: GET
     path:
     - /
-  name: US_United States_vmess_1142
+  name: US_United States_vmess_1145
   network: http
   port: 2082
   server: 64.225.109.206
@@ -15076,39 +15076,52 @@ proxies:
   type: vmess
   udp: true
   uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-- name: US_United States_trojan_1145
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1147
+  network: ws
   port: 443
-  server: sg02.trojanyyds.xyz
+  server: 00.likelike.us.kg
+  servername: 00.likelike.us.kg
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 680e91d7-01ff-4082-b71a-472d5236adee
+  ws-opts:
+    headers:
+      Host: 00.likelike.us.kg
+    path: /serv00?ed=2048
+- name: US_United States_trojan_1151
+  password: UO2beikcWh
+  port: 33261
+  server: 38.59.245.38
+  skip-cert-verify: true
   type: trojan
-- name: US_United States_trojan_1146
-  password: 243eab52-9ac1-405c-887c-eb112c0985b8
-  port: 443
-  server: in01.trojanyyds.xyz
-  sni: in01.trojanyyds.xyz
-  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1166
+  name: US_United States_ss_1170
   password: amazonskr05
   port: 443
   server: 18.136.200.60
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1167
+  name: US_United States_ss_1171
   password: amazonskr05
   port: 443
   server: 13.231.234.231
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1168
+  name: US_United States_ss_1172
   password: amazonskr05
   port: 443
   server: 3.112.254.144
   tfo: false
   type: ss
-- name: US_United States_trojan_1176
+- name: US_United States_trojan_1180
   network: ws
   password: Aimer
   port: 2087
@@ -15121,7 +15134,7 @@ proxies:
     headers:
       Host: amepo.ambercc.filegear-sg.me
     path: /
-- name: US_United States_trojan_1178
+- name: US_United States_trojan_1182
   network: ws
   password: Aimer
   port: 8443
@@ -15134,7 +15147,7 @@ proxies:
     headers:
       Host: amepo.ambercc.filegear-sg.me
     path: /
-- name: US_United States_trojan_1179
+- name: US_United States_trojan_1183
   network: ws
   password: Aimer
   port: 2053
@@ -15147,7 +15160,7 @@ proxies:
     headers:
       Host: amepo.ambercc.filegear-sg.me
     path: /
-- name: US_United States_trojan_1180
+- name: US_United States_trojan_1184
   network: ws
   password: Aimer
   port: 2087
@@ -15160,7 +15173,7 @@ proxies:
     headers:
       Host: amepo.ambercc.filegear-sg.me
     path: /
-- name: US_United States_trojan_1181
+- name: US_United States_trojan_1185
   network: ws
   password: Aimer
   port: 2083
@@ -15173,7 +15186,7 @@ proxies:
     headers:
       Host: amepo.ambercc.filegear-sg.me
     path: /
-- name: US_United States_trojan_1184
+- name: US_United States_trojan_1188
   network: ws
   password: Aimer
   port: 2096
@@ -15186,7 +15199,7 @@ proxies:
     headers:
       Host: amepo.ambercc.filegear-sg.me
     path: /
-- name: US_United States_trojan_1185
+- name: US_United States_trojan_1189
   network: ws
   password: Aimer
   port: 2096
@@ -15199,7 +15212,7 @@ proxies:
     headers:
       Host: amepo.ambercc.filegear-sg.me
     path: /
-- name: US_United States_trojan_1186
+- name: US_United States_trojan_1190
   network: ws
   password: Aimer
   port: 2087
@@ -16273,28 +16286,28 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_112
-  - US_United States_ss_113
-  - US_United States_ss_114
-  - US_United States_ss_1128
-  - US_United States_ss_1131
-  - US_United States_ss_1134
-  - US_United States_ss_1136
+  - US_United States_ss_111
+  - US_United States_ss_1127
+  - US_United States_ss_1130
+  - US_United States_ss_1135
   - US_United States_ss_1137
-  - US_United States_vmess_1142
-  - US_United States_trojan_1145
-  - US_United States_trojan_1146
-  - US_United States_ss_1166
-  - US_United States_ss_1167
-  - US_United States_ss_1168
-  - US_United States_trojan_1176
-  - US_United States_trojan_1178
-  - US_United States_trojan_1179
+  - US_United States_ss_1138
+  - US_United States_ss_1139
+  - US_United States_ss_1140
+  - US_United States_vmess_1145
+  - US_United States_vmess_1147
+  - US_United States_trojan_1151
+  - US_United States_ss_1170
+  - US_United States_ss_1171
+  - US_United States_ss_1172
   - US_United States_trojan_1180
-  - US_United States_trojan_1181
+  - US_United States_trojan_1182
+  - US_United States_trojan_1183
   - US_United States_trojan_1184
   - US_United States_trojan_1185
-  - US_United States_trojan_1186
+  - US_United States_trojan_1188
+  - US_United States_trojan_1189
+  - US_United States_trojan_1190
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17304,28 +17317,28 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_112
-  - US_United States_ss_113
-  - US_United States_ss_114
-  - US_United States_ss_1128
-  - US_United States_ss_1131
-  - US_United States_ss_1134
-  - US_United States_ss_1136
+  - US_United States_ss_111
+  - US_United States_ss_1127
+  - US_United States_ss_1130
+  - US_United States_ss_1135
   - US_United States_ss_1137
-  - US_United States_vmess_1142
-  - US_United States_trojan_1145
-  - US_United States_trojan_1146
-  - US_United States_ss_1166
-  - US_United States_ss_1167
-  - US_United States_ss_1168
-  - US_United States_trojan_1176
-  - US_United States_trojan_1178
-  - US_United States_trojan_1179
+  - US_United States_ss_1138
+  - US_United States_ss_1139
+  - US_United States_ss_1140
+  - US_United States_vmess_1145
+  - US_United States_vmess_1147
+  - US_United States_trojan_1151
+  - US_United States_ss_1170
+  - US_United States_ss_1171
+  - US_United States_ss_1172
   - US_United States_trojan_1180
-  - US_United States_trojan_1181
+  - US_United States_trojan_1182
+  - US_United States_trojan_1183
   - US_United States_trojan_1184
   - US_United States_trojan_1185
-  - US_United States_trojan_1186
+  - US_United States_trojan_1188
+  - US_United States_trojan_1189
+  - US_United States_trojan_1190
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
