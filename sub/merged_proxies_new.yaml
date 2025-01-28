@@ -15007,6 +15007,123 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- cipher: aes-256-cfb
+  name: US_United States_ss_111
+  password: amazonskr05
+  port: 443
+  server: 54.189.160.123
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_112
+  password: amazonskr05
+  port: 443
+  server: 43.203.201.77
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_113
+  password: amazonskr05
+  port: 443
+  server: 43.203.239.233
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_114
+  password: amazonskr05
+  port: 443
+  server: 54.244.34.53
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_115
+  password: amazonskr05
+  port: 443
+  server: 35.92.44.190
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_116
+  password: amazonskr05
+  port: 443
+  server: 35.88.145.179
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_119
+  password: amazonskr05
+  port: 443
+  server: 57.180.15.242
+  type: ss
+- cipher: chacha20-ietf
+  name: US_United States_ss_1111
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1113
+  network: ws
+  port: 8880
+  server: s2.db-link01.top
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-14-147-154.s2.db-link01.top
+    path: /dabai.in172.64.0.32
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: US_United States_vmess_1114
+  network: http
+  port: 2082
+  server: 64.225.109.206
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1118
+  port: 40975
+  server: 38.147.188.17
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ab2867d9-5abe-4b18-836b-b3ea69df3e4f
+- cipher: aes-256-cfb
+  name: US_United States_ss_1132
+  password: amazonskr05
+  port: 443
+  server: 54.95.145.3
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1134
+  password: amazonskr05
+  port: 443
+  server: 3.112.203.145
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1148
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.23.207.118
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: US_United States_trojan_1149
+  password: '3763495894587285504'
+  port: 443
+  server: 3.250.247.186
+  skip-cert-verify: true
+  sni: daring-puma.goat627.mom
+  type: trojan
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16068,6 +16185,21 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_ss_114
+  - US_United States_ss_115
+  - US_United States_ss_116
+  - US_United States_ss_119
+  - US_United States_ss_1111
+  - US_United States_vmess_1113
+  - US_United States_vmess_1114
+  - US_United States_vmess_1118
+  - US_United States_ss_1132
+  - US_United States_ss_1134
+  - US_United States_trojan_1148
+  - US_United States_trojan_1149
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17077,6 +17209,21 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_ss_114
+  - US_United States_ss_115
+  - US_United States_ss_116
+  - US_United States_ss_119
+  - US_United States_ss_1111
+  - US_United States_vmess_1113
+  - US_United States_vmess_1114
+  - US_United States_vmess_1118
+  - US_United States_ss_1132
+  - US_United States_ss_1134
+  - US_United States_trojan_1148
+  - US_United States_trojan_1149
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
