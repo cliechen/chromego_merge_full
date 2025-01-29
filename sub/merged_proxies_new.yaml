@@ -15011,35 +15011,23 @@ proxies:
   name: US_United States_ss_112
   password: amazonskr05
   port: 443
-  server: 35.92.44.190
+  server: 43.203.239.233
   type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_113
   password: amazonskr05
   port: 443
-  server: 47.128.239.238
+  server: 3.38.251.26
   type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_114
   password: amazonskr05
   port: 443
-  server: 35.88.145.179
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_115
-  password: amazonskr05
-  port: 443
-  server: 43.203.239.233
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_116
-  password: amazonskr05
-  port: 443
-  server: 54.95.145.3
+  server: 47.128.239.238
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1123
+  name: US_United States_vmess_1120
   network: ws
   port: '8080'
   server: vip2.pmy666.xyz
@@ -15054,34 +15042,34 @@ proxies:
       Host: domg.pmy666.xyz
     path: /?ed=2048
 - cipher: aes-256-cfb
-  name: US_United States_ss_1124
+  name: US_United States_ss_1121
   password: amazonskr05
   port: 443
   server: 13.229.117.61
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1125
+  name: US_United States_ss_1122
   password: amazonskr05
   port: 443
   server: 18.143.147.45
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1126
+  name: US_United States_ss_1123
   password: amazonskr05
   port: 443
   server: 54.169.74.60
   tfo: false
   type: ss
-- name: US_United States_trojan_1135
+- name: US_United States_trojan_1132
   password: telegram-id-directvpn
   port: 22222
   server: 3.23.207.118
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: US_United States_trojan_1136
+- name: US_United States_trojan_1133
   password: '3763495894587285504'
   port: 443
   server: 3.250.247.186
@@ -16152,14 +16140,12 @@ proxy-groups:
   - US_United States_ss_112
   - US_United States_ss_113
   - US_United States_ss_114
-  - US_United States_ss_115
-  - US_United States_ss_116
-  - US_United States_vmess_1123
-  - US_United States_ss_1124
-  - US_United States_ss_1125
-  - US_United States_ss_1126
-  - US_United States_trojan_1135
-  - US_United States_trojan_1136
+  - US_United States_vmess_1120
+  - US_United States_ss_1121
+  - US_United States_ss_1122
+  - US_United States_ss_1123
+  - US_United States_trojan_1132
+  - US_United States_trojan_1133
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17172,14 +17158,12 @@ proxy-groups:
   - US_United States_ss_112
   - US_United States_ss_113
   - US_United States_ss_114
-  - US_United States_ss_115
-  - US_United States_ss_116
-  - US_United States_vmess_1123
-  - US_United States_ss_1124
-  - US_United States_ss_1125
-  - US_United States_ss_1126
-  - US_United States_trojan_1135
-  - US_United States_trojan_1136
+  - US_United States_vmess_1120
+  - US_United States_ss_1121
+  - US_United States_ss_1122
+  - US_United States_ss_1123
+  - US_United States_trojan_1132
+  - US_United States_trojan_1133
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
