@@ -15008,12 +15008,6 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_111
-  password: amazonskr05
-  port: 443
-  server: 3.38.251.26
-  type: ss
-- cipher: aes-256-cfb
   name: US_United States_ss_112
   password: amazonskr05
   port: 443
@@ -15029,17 +15023,49 @@ proxies:
   name: US_United States_ss_114
   password: amazonskr05
   port: 443
-  server: 43.203.201.77
+  server: 3.38.251.26
   type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_115
   password: amazonskr05
   port: 443
-  server: 43.203.239.233
+  server: 43.203.201.77
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1118
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1111
+  network: ws
+  port: 443
+  server: 23.158.56.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.227
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1112
+  network: ws
+  port: 8880
+  server: s1.db-link01.top
+  servername: 100-250-32-53.s1.db-link01.top
+  type: vmess
+  udp: true
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-250-32-53.s1.db-link01.top
+    path: /dabai.in172.67.95.35
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1116
   port: 41671
   server: 38.147.188.172
   skip-cert-verify: false
@@ -15049,7 +15075,7 @@ proxies:
   uuid: 6106cf31-69b3-4509-b0ad-7d0d5ea4688f
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1129
+  name: US_United States_vmess_1127
   port: 45557
   server: 38.147.161.47
   skip-cert-verify: false
@@ -15058,34 +15084,34 @@ proxies:
   type: vmess
   uuid: 84a0542c-122a-42ec-93d2-4a1e814cf1f5
 - cipher: aes-256-cfb
-  name: US_United States_ss_1130
+  name: US_United States_ss_1128
   password: amazonskr05
   port: 443
   server: 18.143.147.45
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1131
+  name: US_United States_ss_1129
   password: amazonskr05
   port: 443
   server: 54.169.74.60
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1132
+  name: US_United States_ss_1130
   password: amazonskr05
   port: 443
   server: 13.229.117.61
   tfo: false
   type: ss
-- name: US_United States_trojan_1144
+- name: US_United States_trojan_1142
   password: telegram-id-directvpn
   port: 22222
   server: 3.23.207.118
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: US_United States_trojan_1145
+- name: US_United States_trojan_1143
   password: '3763495894587285504'
   port: 443
   server: 3.250.247.186
@@ -16153,18 +16179,19 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
   - US_United States_ss_112
   - US_United States_ss_113
   - US_United States_ss_114
   - US_United States_ss_115
-  - US_United States_vmess_1118
-  - US_United States_vmess_1129
+  - US_United States_vmess_1111
+  - US_United States_vmess_1112
+  - US_United States_vmess_1116
+  - US_United States_vmess_1127
+  - US_United States_ss_1128
+  - US_United States_ss_1129
   - US_United States_ss_1130
-  - US_United States_ss_1131
-  - US_United States_ss_1132
-  - US_United States_trojan_1144
-  - US_United States_trojan_1145
+  - US_United States_trojan_1142
+  - US_United States_trojan_1143
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17174,18 +17201,19 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
   - US_United States_ss_112
   - US_United States_ss_113
   - US_United States_ss_114
   - US_United States_ss_115
-  - US_United States_vmess_1118
-  - US_United States_vmess_1129
+  - US_United States_vmess_1111
+  - US_United States_vmess_1112
+  - US_United States_vmess_1116
+  - US_United States_vmess_1127
+  - US_United States_ss_1128
+  - US_United States_ss_1129
   - US_United States_ss_1130
-  - US_United States_ss_1131
-  - US_United States_ss_1132
-  - US_United States_trojan_1144
-  - US_United States_trojan_1145
+  - US_United States_trojan_1142
+  - US_United States_trojan_1143
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
