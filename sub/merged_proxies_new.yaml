@@ -15007,60 +15007,30 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-256-cfb
+- cipher: rc4-md5
   name: US_United States_ss_111
-  password: amazonskr05
-  port: 443
-  server: 3.38.251.26
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 107.155.57.11
   type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_112
-  password: amazonskr05
-  port: 443
-  server: 43.203.239.233
-  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: US_United States_ss_113
   password: amazonskr05
   port: 443
-  server: 54.244.34.53
+  server: 43.203.201.77
   type: ss
 - cipher: aes-128-gcm
-  name: US_United States_ss_114
+  name: US_United States_ss_118
   password: shadowsocks
   port: 443
   server: 149.34.244.82
-  type: ss
-- cipher: chacha20-ietf
-  name: US_United States_ss_119
-  password: asd123456
-  port: 8388
-  server: 107.148.6.121
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: US_United States_ss_1110
-  password: amazonskr05
-  port: 443
-  server: 43.203.201.77
-  type: ss
-- cipher: chacha20-ietf
-  name: US_United States_ss_1111
-  password: asd123456
-  port: 8388
-  server: 137.175.113.193
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1112
-  password: amazonskr05
-  port: 443
-  server: 35.88.145.179
   type: ss
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: US_United States_vmess_1115
+  name: US_United States_vmess_1112
   network: ws
   port: 443
   server: 23.158.56.227
@@ -15073,34 +15043,34 @@ proxies:
       Host: 23.158.56.227
     path: /linkvws
 - cipher: aes-256-cfb
-  name: US_United States_ss_1126
+  name: US_United States_ss_1123
   password: amazonskr05
   port: 443
   server: 54.255.22.224
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1127
+  name: US_United States_ss_1124
   password: amazonskr05
   port: 443
   server: 52.194.205.70
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1128
+  name: US_United States_ss_1125
   password: amazonskr05
   port: 443
   server: 3.0.91.253
   tfo: false
   type: ss
-- name: US_United States_trojan_1140
+- name: US_United States_trojan_1137
   password: telegram-id-directvpn
   port: 22222
   server: 3.23.207.118
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: US_United States_trojan_1141
+- name: US_United States_trojan_1138
   password: '3763495894587285504'
   port: 443
   server: 3.250.247.186
@@ -16169,19 +16139,14 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_ss_111
-  - US_United States_ss_112
   - US_United States_ss_113
-  - US_United States_ss_114
-  - US_United States_ss_119
-  - US_United States_ss_1110
-  - US_United States_ss_1111
-  - US_United States_ss_1112
-  - US_United States_vmess_1115
-  - US_United States_ss_1126
-  - US_United States_ss_1127
-  - US_United States_ss_1128
-  - US_United States_trojan_1140
-  - US_United States_trojan_1141
+  - US_United States_ss_118
+  - US_United States_vmess_1112
+  - US_United States_ss_1123
+  - US_United States_ss_1124
+  - US_United States_ss_1125
+  - US_United States_trojan_1137
+  - US_United States_trojan_1138
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17192,19 +17157,14 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_ss_111
-  - US_United States_ss_112
   - US_United States_ss_113
-  - US_United States_ss_114
-  - US_United States_ss_119
-  - US_United States_ss_1110
-  - US_United States_ss_1111
-  - US_United States_ss_1112
-  - US_United States_vmess_1115
-  - US_United States_ss_1126
-  - US_United States_ss_1127
-  - US_United States_ss_1128
-  - US_United States_trojan_1140
-  - US_United States_trojan_1141
+  - US_United States_ss_118
+  - US_United States_vmess_1112
+  - US_United States_ss_1123
+  - US_United States_ss_1124
+  - US_United States_ss_1125
+  - US_United States_trojan_1137
+  - US_United States_trojan_1138
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
