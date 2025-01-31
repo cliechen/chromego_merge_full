@@ -15007,6 +15007,106 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- cipher: aes-256-cfb
+  name: US_United States_ss_111
+  password: amazonskr05
+  port: 443
+  server: 3.38.251.26
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_112
+  password: amazonskr05
+  port: 443
+  server: 43.203.239.233
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_113
+  password: amazonskr05
+  port: 443
+  server: 54.244.34.53
+  type: ss
+- cipher: aes-128-gcm
+  name: US_United States_ss_114
+  password: shadowsocks
+  port: 443
+  server: 149.34.244.82
+  type: ss
+- cipher: chacha20-ietf
+  name: US_United States_ss_119
+  password: asd123456
+  port: 8388
+  server: 107.148.6.121
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1110
+  password: amazonskr05
+  port: 443
+  server: 43.203.201.77
+  type: ss
+- cipher: chacha20-ietf
+  name: US_United States_ss_1111
+  password: asd123456
+  port: 8388
+  server: 137.175.113.193
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1112
+  password: amazonskr05
+  port: 443
+  server: 35.88.145.179
+  type: ss
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1115
+  network: ws
+  port: 443
+  server: 23.158.56.227
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 23.158.56.227
+    path: /linkvws
+- cipher: aes-256-cfb
+  name: US_United States_ss_1126
+  password: amazonskr05
+  port: 443
+  server: 54.255.22.224
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1127
+  password: amazonskr05
+  port: 443
+  server: 52.194.205.70
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1128
+  password: amazonskr05
+  port: 443
+  server: 3.0.91.253
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1140
+  password: telegram-id-directvpn
+  port: 22222
+  server: 3.23.207.118
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: US_United States_trojan_1141
+  password: '3763495894587285504'
+  port: 443
+  server: 3.250.247.186
+  skip-cert-verify: true
+  sni: daring-puma.goat627.mom
+  type: trojan
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16068,6 +16168,20 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_ss_114
+  - US_United States_ss_119
+  - US_United States_ss_1110
+  - US_United States_ss_1111
+  - US_United States_ss_1112
+  - US_United States_vmess_1115
+  - US_United States_ss_1126
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_trojan_1140
+  - US_United States_trojan_1141
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17077,6 +17191,20 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_111
+  - US_United States_ss_112
+  - US_United States_ss_113
+  - US_United States_ss_114
+  - US_United States_ss_119
+  - US_United States_ss_1110
+  - US_United States_ss_1111
+  - US_United States_ss_1112
+  - US_United States_vmess_1115
+  - US_United States_ss_1126
+  - US_United States_ss_1127
+  - US_United States_ss_1128
+  - US_United States_trojan_1140
+  - US_United States_trojan_1141
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
