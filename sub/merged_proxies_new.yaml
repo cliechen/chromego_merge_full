@@ -15007,44 +15007,28 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: US_United States_trojan_115
-  password: 96cad374-7573-4463-8804-4665c2c3d932
-  port: 6001
-  server: aws-jpjp.aikunapp.com
-  skip-cert-verify: true
-  sni: bootcdn.xuexi.cn
-  type: trojan
+- cipher: aes-256-cfb
+  name: US_United States_ss_115
+  password: amazonskr05
+  port: 443
+  server: 43.201.102.200
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1110
+  password: amazonskr05
+  port: 443
+  server: 43.207.76.121
+  type: ss
   udp: true
-- alterId: 99999
-  cipher: auto
-  name: US_United States_vmess_1114
-  port: 446
-  server: 4sq5c-g03.jp04-3771-vm0.entry.fr0307a.art
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-- alterId: 99999
-  cipher: auto
-  name: US_United States_vmess_1119
-  port: 21583
-  server: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art
-  servername: c2nnc-g01.jp03-7d22-vm0.entry.fr0307a.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
 - cipher: aes-256-gcm
-  name: US_United States_ss_1132
+  name: US_United States_ss_1128
   password: OUKMA500HD6PGEPF
   port: 17005
   server: 23.185.248.15
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: US_United States_ss_1133
+  name: US_United States_ss_1129
   password: 2VMSAJ5HAWHYMBRN
   port: 17003
   server: 23.185.248.13
@@ -15054,7 +15038,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: /
-  name: US_United States_vmess_1134
+  name: US_United States_vmess_1130
   network: grpc
   port: '443'
   server: t03-cf.phpman.top
@@ -15065,21 +15049,21 @@ proxies:
   type: vmess
   uuid: 537d21ad-49af-41ad-8089-db557b63a40e
 - cipher: aes-256-cfb
-  name: US_United States_ss_1135
+  name: US_United States_ss_1131
   password: amazonskr05
   port: 443
   server: 43.206.239.0
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1136
+  name: US_United States_ss_1132
   password: amazonskr05
   port: 443
   server: 13.215.205.85
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1137
+  name: US_United States_ss_1133
   password: amazonskr05
   port: 443
   server: 54.248.40.18
@@ -16146,15 +16130,14 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_115
-  - US_United States_vmess_1114
-  - US_United States_vmess_1119
+  - US_United States_ss_115
+  - US_United States_ss_1110
+  - US_United States_ss_1128
+  - US_United States_ss_1129
+  - US_United States_vmess_1130
+  - US_United States_ss_1131
   - US_United States_ss_1132
   - US_United States_ss_1133
-  - US_United States_vmess_1134
-  - US_United States_ss_1135
-  - US_United States_ss_1136
-  - US_United States_ss_1137
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17164,15 +17147,14 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_115
-  - US_United States_vmess_1114
-  - US_United States_vmess_1119
+  - US_United States_ss_115
+  - US_United States_ss_1110
+  - US_United States_ss_1128
+  - US_United States_ss_1129
+  - US_United States_vmess_1130
+  - US_United States_ss_1131
   - US_United States_ss_1132
   - US_United States_ss_1133
-  - US_United States_vmess_1134
-  - US_United States_ss_1135
-  - US_United States_ss_1136
-  - US_United States_ss_1137
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
