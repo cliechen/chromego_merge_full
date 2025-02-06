@@ -15008,99 +15008,135 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ssr_111
-  obfs: plain
+  name: US_United States_ss_112
   password: amazonskr05
   port: 443
-  protocol: origin
-  server: 35.95.8.174
-  type: ssr
-- cipher: aes-256-cfb
-  name: US_United States_ss_115
-  password: amazonskr05
-  port: 443
-  server: 47.129.101.151
+  server: 13.229.229.102
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ssr_117
-  obfs: plain
+  name: US_United States_ss_116
   password: amazonskr05
   port: 443
-  protocol: origin
-  server: 34.217.145.61
-  type: ssr
+  server: 54.212.56.86
+  type: ss
 - cipher: aes-256-cfb
   name: US_United States_ss_118
   password: amazonskr05
   port: 443
-  server: 52.78.178.243
+  server: 13.231.129.236
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_119
+  password: amazonskr05
+  port: 443
+  server: 54.255.245.79
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1119
+  password: amazonskr05
+  port: 443
+  server: 13.125.215.15
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1117
-  port: 57658
-  server: 38.147.188.17
+  name: US_United States_vmess_1124
+  port: 49838
+  server: 38.147.189.115
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7f004471-a725-4efb-9a19-6bf17a61cf46
-- name: US_United States_trojan_1127
+  uuid: e413fd92-afde-423a-8ba2-b337bf5d7ca2
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1126
+  port: 40755
+  server: 38.147.189.158
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 837d93be-fe14-4a50-bd11-ead5c00585d3
+- name: US_United States_trojan_1132
   password: '65086520307764900'
   port: 443
-  server: useful-jennet.shiner427.skin
+  server: engaged-cattle.shiner427.skin
   skip-cert-verify: false
-  sni: useful-jennet.shiner427.skin
+  sni: engaged-cattle.shiner427.skin
   type: trojan
-- name: US_United States_trojan_1128
+- name: US_United States_trojan_1134
   password: '65086520307764900'
   port: 443
-  server: hopeful-seagull.shiner427.skin
+  server: dynamic-shrew.shiner427.skin
   skip-cert-verify: false
-  sni: hopeful-seagull.shiner427.skin
+  sni: dynamic-shrew.shiner427.skin
   type: trojan
-- name: US_United States_trojan_1129
+- name: US_United States_trojan_1135
+  password: '65086520307764900'
+  port: 443
+  server: summary-sawfish.shiner427.skin
+  skip-cert-verify: false
+  sni: summary-sawfish.shiner427.skin
+  type: trojan
+- name: US_United States_trojan_1136
+  network: tcp
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
+  skip-cert-verify: true
+  type: trojan
+- name: US_United States_trojan_1137
+  password: '65086520307764900'
+  port: 443
+  server: arriving-longhorn.shiner427.skin
+  skip-cert-verify: false
+  sni: arriving-longhorn.shiner427.skin
+  type: trojan
+- name: US_United States_trojan_1138
+  password: '65086520307764900'
+  port: 443
+  server: grateful-lark.shiner427.skin
+  skip-cert-verify: false
+  sni: grateful-lark.shiner427.skin
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1139
+  port: 44447
+  server: 38.147.161.47
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
+- cipher: aes-256-cfb
+  name: US_United States_ss_1140
+  password: amazonskr05
+  port: 443
+  server: 3.35.138.163
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1141
+  password: amazonskr05
+  port: 443
+  server: 47.129.38.168
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1142
+  password: amazonskr05
+  port: 443
+  server: 18.141.25.54
+  tfo: false
+  type: ss
+- name: US_United States_trojan_1157
   password: '65086520307764900'
   port: 443
   server: relieved-raccoon.shiner427.skin
   skip-cert-verify: false
   sni: relieved-raccoon.shiner427.skin
   type: trojan
-- name: US_United States_trojan_1130
-  password: '65086520307764900'
-  port: 443
-  server: robust-redfish.shiner427.skin
-  skip-cert-verify: false
-  sni: robust-redfish.shiner427.skin
-  type: trojan
-- name: US_United States_trojan_1131
-  password: '65086520307764900'
-  port: 443
-  server: moral-rat.shiner427.skin
-  skip-cert-verify: false
-  sni: moral-rat.shiner427.skin
-  type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1132
-  password: amazonskr05
-  port: 443
-  server: 18.143.78.171
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1133
-  password: amazonskr05
-  port: 443
-  server: 52.78.197.177
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1134
-  password: amazonskr05
-  port: 443
-  server: 52.192.75.193
-  tfo: false
-  type: ss
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16162,19 +16198,24 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ssr_111
-  - US_United States_ss_115
-  - US_United States_ssr_117
+  - US_United States_ss_112
+  - US_United States_ss_116
   - US_United States_ss_118
-  - US_United States_vmess_1117
-  - US_United States_trojan_1127
-  - US_United States_trojan_1128
-  - US_United States_trojan_1129
-  - US_United States_trojan_1130
-  - US_United States_trojan_1131
-  - US_United States_ss_1132
-  - US_United States_ss_1133
-  - US_United States_ss_1134
+  - US_United States_ss_119
+  - US_United States_ss_1119
+  - US_United States_vmess_1124
+  - US_United States_vmess_1126
+  - US_United States_trojan_1132
+  - US_United States_trojan_1134
+  - US_United States_trojan_1135
+  - US_United States_trojan_1136
+  - US_United States_trojan_1137
+  - US_United States_trojan_1138
+  - US_United States_vmess_1139
+  - US_United States_ss_1140
+  - US_United States_ss_1141
+  - US_United States_ss_1142
+  - US_United States_trojan_1157
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17184,19 +17225,24 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ssr_111
-  - US_United States_ss_115
-  - US_United States_ssr_117
+  - US_United States_ss_112
+  - US_United States_ss_116
   - US_United States_ss_118
-  - US_United States_vmess_1117
-  - US_United States_trojan_1127
-  - US_United States_trojan_1128
-  - US_United States_trojan_1129
-  - US_United States_trojan_1130
-  - US_United States_trojan_1131
-  - US_United States_ss_1132
-  - US_United States_ss_1133
-  - US_United States_ss_1134
+  - US_United States_ss_119
+  - US_United States_ss_1119
+  - US_United States_vmess_1124
+  - US_United States_vmess_1126
+  - US_United States_trojan_1132
+  - US_United States_trojan_1134
+  - US_United States_trojan_1135
+  - US_United States_trojan_1136
+  - US_United States_trojan_1137
+  - US_United States_trojan_1138
+  - US_United States_vmess_1139
+  - US_United States_ss_1140
+  - US_United States_ss_1141
+  - US_United States_ss_1142
+  - US_United States_trojan_1157
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
