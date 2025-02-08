@@ -15007,38 +15007,16 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_111
+  name: US_United States_ssr_112
+  obfs: plain
   password: amazonskr05
   port: 443
-  server: 47.129.255.141
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: US_United States_vmess_112
-  network: ws
-  port: 80
-  server: awssg1.072659.xyz
-  type: vmess
-  uuid: f435af7b-d36e-4e8d-9c0f-3017bb71e2c9
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /?ed=2048
-- cipher: aes-256-cfb
-  name: US_United States_ss_113
-  password: amazonskr05
-  port: 443
-  server: 34.221.167.203
-  type: ss
-- cipher: rc4-md5
-  name: US_United States_ss_115
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.11
-  type: ss
+  protocol: origin
+  server: 54.190.43.178
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_116
+  name: US_United States_vmess_114
   port: 18423
   server: 38.147.188.94
   skip-cert-verify: false
@@ -15048,7 +15026,7 @@ proxies:
   uuid: d74f7655-eb59-4b48-9f8f-98a9c64a9e10
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_117
+  name: US_United States_vmess_115
   port: 32450
   server: 38.147.188.160
   skip-cert-verify: false
@@ -15057,27 +15035,27 @@ proxies:
   type: vmess
   uuid: 1fa824bb-a682-4827-821f-9adc444a2a0f
 - cipher: aes-256-cfb
-  name: US_United States_ss_1123
+  name: US_United States_ss_1121
   password: amazonskr05
   port: 443
   server: 13.230.208.187
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1124
+  name: US_United States_ss_1122
   password: amazonskr05
   port: 443
   server: 13.113.168.96
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1125
+  name: US_United States_ss_1123
   password: amazonskr05
   port: 443
   server: 54.178.45.63
   tfo: false
   type: ss
-- name: US_United States_trojan_1130
+- name: US_United States_trojan_1128
   password: '65086520307764900'
   port: 443
   server: relieved-raccoon.shiner427.skin
@@ -16145,16 +16123,13 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_vmess_112
-  - US_United States_ss_113
-  - US_United States_ss_115
-  - US_United States_vmess_116
-  - US_United States_vmess_117
+  - US_United States_ssr_112
+  - US_United States_vmess_114
+  - US_United States_vmess_115
+  - US_United States_ss_1121
+  - US_United States_ss_1122
   - US_United States_ss_1123
-  - US_United States_ss_1124
-  - US_United States_ss_1125
-  - US_United States_trojan_1130
+  - US_United States_trojan_1128
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17164,16 +17139,13 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_111
-  - US_United States_vmess_112
-  - US_United States_ss_113
-  - US_United States_ss_115
-  - US_United States_vmess_116
-  - US_United States_vmess_117
+  - US_United States_ssr_112
+  - US_United States_vmess_114
+  - US_United States_vmess_115
+  - US_United States_ss_1121
+  - US_United States_ss_1122
   - US_United States_ss_1123
-  - US_United States_ss_1124
-  - US_United States_ss_1125
-  - US_United States_trojan_1130
+  - US_United States_trojan_1128
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
