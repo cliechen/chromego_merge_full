@@ -15006,13 +15006,14 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-256-cfb
-  name: US_United States_ss_1131
-  password: amazonskr05
+- name: US_United States_trojan_112
+  password: '3782591447421952000'
   port: 443
-  server: 52.34.200.48
-  type: ss
-- name: US_United States_trojan_1134
+  server: equipped-mouse.treefrog761.one
+  skip-cert-verify: true
+  sni: equipped-mouse.treefrog761.one
+  type: trojan
+- name: US_United States_trojan_1135
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
@@ -16129,8 +16130,8 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1131
-  - US_United States_trojan_1134
+  - US_United States_trojan_112
+  - US_United States_trojan_1135
   - US_United States_vmess_1151
   - US_United States_vmess_1152
   - US_United States_ss_1153
@@ -17146,8 +17147,8 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1131
-  - US_United States_trojan_1134
+  - US_United States_trojan_112
+  - US_United States_trojan_1135
   - US_United States_vmess_1151
   - US_United States_vmess_1152
   - US_United States_ss_1153
