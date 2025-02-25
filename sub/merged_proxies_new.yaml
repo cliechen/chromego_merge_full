@@ -15007,48 +15007,13 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_1131
-  password: amazonskr05
-  port: 443
-  server: 47.129.7.198
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1134
-  password: amazonskr05
-  port: 443
-  server: 47.128.150.63
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1137
-  password: amazonskr05
-  port: 443
-  server: 35.87.185.129
-  type: ss
-- cipher: aes-256-cfb
   name: US_United States_ss_1138
   password: amazonskr05
   port: 443
-  server: 54.254.169.121
+  server: 47.128.150.63
+  tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1139
-  password: amazonskr05
-  port: 443
-  server: 34.212.9.157
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1141
-  password: amazonskr05
-  port: 443
-  server: 52.32.166.45
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1142
-  password: amazonskr05
-  port: 443
-  server: 52.197.84.70
-  type: ss
-- name: US_United States_trojan_1147
+- name: US_United States_trojan_1142
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
@@ -15056,41 +15021,18 @@ proxies:
   skip-cert-verify: true
   sni: hezijiasuqi.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1161
-  network: ws
-  port: '22223'
-  server: free-kr.faforex.eu.org
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 34b92487-a7b5-400a-b42f-40f53377aaab
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - cipher: aes-256-cfb
-  name: US_United States_ss_1170
+  name: US_United States_ss_1162
   password: amazonskr05
   port: 443
-  server: 54.254.236.133
+  server: 54.199.112.166
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1171
+  name: US_United States_ss_1163
   password: amazonskr05
   port: 443
-  server: 13.212.32.201
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1172
-  password: amazonskr05
-  port: 443
-  server: 13.229.82.37
+  server: 47.129.201.221
   tfo: false
   type: ss
 - name: TW_Taiwan_reality_0
@@ -16154,18 +16096,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1131
-  - US_United States_ss_1134
-  - US_United States_ss_1137
   - US_United States_ss_1138
-  - US_United States_ss_1139
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_trojan_1147
-  - US_United States_vmess_1161
-  - US_United States_ss_1170
-  - US_United States_ss_1171
-  - US_United States_ss_1172
+  - US_United States_trojan_1142
+  - US_United States_ss_1162
+  - US_United States_ss_1163
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17175,18 +17109,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1131
-  - US_United States_ss_1134
-  - US_United States_ss_1137
   - US_United States_ss_1138
-  - US_United States_ss_1139
-  - US_United States_ss_1141
-  - US_United States_ss_1142
-  - US_United States_trojan_1147
-  - US_United States_vmess_1161
-  - US_United States_ss_1170
-  - US_United States_ss_1171
-  - US_United States_ss_1172
+  - US_United States_trojan_1142
+  - US_United States_ss_1162
+  - US_United States_ss_1163
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
