@@ -15007,44 +15007,60 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-gcm
-  name: US_United States_ss_1132
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 38.64.138.145
+  delay: 2544
+  name: US_United States_ss_1131
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 69.50.95.138
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1138
+  name: US_United States_ss_1132
   password: amazonskr05
   port: 443
-  server: 54.244.204.173
+  server: 34.217.75.205
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1139
+  name: US_United States_ss_1135
   password: amazonskr05
   port: 443
   server: 35.77.96.173
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ssr_1141
-  obfs: plain
+  delay: 698
+  name: US_United States_ss_1136
   password: amazonskr05
   port: 443
-  protocol: origin
-  server: 52.33.5.226
-  type: ssr
-- cipher: aes-256-cfb
-  name: US_United States_ss_1142
-  password: amazonskr05
-  port: 443
-  server: 13.231.194.161
+  server: 3.112.245.114
   type: ss
 - cipher: aes-256-cfb
+  name: US_United States_ss_1137
+  password: amazonskr05
+  port: 443
+  server: 35.91.187.73
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1138
+  password: amazonskr05
+  port: 443
+  server: 13.229.59.137
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 844
+  name: US_United States_ss_1141
+  password: lGqs95QkFHo2NV
+  port: 5499
+  server: 69.50.93.118
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 1100
   name: US_United States_ss_1144
-  password: amazonskr05
-  port: 443
-  server: 52.198.15.182
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 69.50.93.117
   type: ss
-- name: US_United States_trojan_1146
+- name: US_United States_trojan_1148
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
@@ -15053,21 +15069,21 @@ proxies:
   sni: hezijiasuqi.com
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1167
+  name: US_United States_ss_1170
   password: amazonskr05
   port: 443
   server: 54.199.112.166
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1168
+  name: US_United States_ss_1171
   password: amazonskr05
   port: 443
   server: 47.128.150.63
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1169
+  name: US_United States_ss_1172
   password: amazonskr05
   port: 443
   server: 47.129.201.221
@@ -16134,16 +16150,18 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_1131
   - US_United States_ss_1132
+  - US_United States_ss_1135
+  - US_United States_ss_1136
+  - US_United States_ss_1137
   - US_United States_ss_1138
-  - US_United States_ss_1139
-  - US_United States_ssr_1141
-  - US_United States_ss_1142
+  - US_United States_ss_1141
   - US_United States_ss_1144
-  - US_United States_trojan_1146
-  - US_United States_ss_1167
-  - US_United States_ss_1168
-  - US_United States_ss_1169
+  - US_United States_trojan_1148
+  - US_United States_ss_1170
+  - US_United States_ss_1171
+  - US_United States_ss_1172
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17153,16 +17171,18 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_1131
   - US_United States_ss_1132
+  - US_United States_ss_1135
+  - US_United States_ss_1136
+  - US_United States_ss_1137
   - US_United States_ss_1138
-  - US_United States_ss_1139
-  - US_United States_ssr_1141
-  - US_United States_ss_1142
+  - US_United States_ss_1141
   - US_United States_ss_1144
-  - US_United States_trojan_1146
-  - US_United States_ss_1167
-  - US_United States_ss_1168
-  - US_United States_ss_1169
+  - US_United States_trojan_1148
+  - US_United States_ss_1170
+  - US_United States_ss_1171
+  - US_United States_ss_1172
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
