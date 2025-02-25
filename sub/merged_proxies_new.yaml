@@ -15006,14 +15006,26 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- name: US_United States_trojan_1132
+  password: a124e41a-0fb8-4543-a0ab-a127c7b515a9
+  port: 20230
+  server: sg008.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1138
+  name: US_United States_ss_1135
   password: amazonskr05
   port: 443
-  server: 47.128.150.63
-  tfo: false
+  server: 34.212.0.149
   type: ss
-- name: US_United States_trojan_1142
+- cipher: aes-256-cfb
+  name: US_United States_ss_1140
+  password: amazonskr05
+  port: 443
+  server: 52.33.5.226
+  type: ss
+- name: US_United States_trojan_1144
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
@@ -15022,14 +15034,21 @@ proxies:
   sni: hezijiasuqi.com
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1162
+  name: US_United States_ss_1166
   password: amazonskr05
   port: 443
   server: 54.199.112.166
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1163
+  name: US_United States_ss_1167
+  password: amazonskr05
+  port: 443
+  server: 47.128.150.63
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1168
   password: amazonskr05
   port: 443
   server: 47.129.201.221
@@ -16096,10 +16115,13 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1138
-  - US_United States_trojan_1142
-  - US_United States_ss_1162
-  - US_United States_ss_1163
+  - US_United States_trojan_1132
+  - US_United States_ss_1135
+  - US_United States_ss_1140
+  - US_United States_trojan_1144
+  - US_United States_ss_1166
+  - US_United States_ss_1167
+  - US_United States_ss_1168
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17109,10 +17131,13 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1138
-  - US_United States_trojan_1142
-  - US_United States_ss_1162
-  - US_United States_ss_1163
+  - US_United States_trojan_1132
+  - US_United States_ss_1135
+  - US_United States_ss_1140
+  - US_United States_trojan_1144
+  - US_United States_ss_1166
+  - US_United States_ss_1167
+  - US_United States_ss_1168
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
