@@ -15006,37 +15006,43 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-128-cfb
-  name: US_United States_ss_1162
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: US_United States_ss_1163
-  password: amazonskr05
-  port: 443
-  server: 54.254.62.242
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.e1.gladns.com
   type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1166
-  password: amazonskr05
-  port: 443
-  server: 47.129.8.153
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1164
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.d3.gladns.com
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf
   name: US_United States_ss_1168
-  password: amazonskr05
-  port: 443
-  server: 18.140.3.253
+  password: asd123456
+  port: 8388
+  server: 137.175.113.193
   type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1175
-  password: amazonskr05
-  port: 443
-  server: 54.238.247.32
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1172
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 84858fa.vpnhat.t.me:73643
+    mode: tls
+  port: 2377
+  server: 84858fa.f2.gladns.com
   type: ss
-- name: US_United States_trojan_1177
+- name: US_United States_trojan_1175
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
@@ -15045,21 +15051,21 @@ proxies:
   sni: hezijiasuqi.com
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1196
+  name: US_United States_ss_1195
   password: amazonskr05
   port: 443
   server: 47.129.151.205
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1197
+  name: US_United States_ss_1196
   password: amazonskr05
   port: 443
   server: 13.250.31.115
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1198
+  name: US_United States_ss_1197
   password: amazonskr05
   port: 443
   server: 18.143.187.178
@@ -16126,15 +16132,14 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1162
   - US_United States_ss_1163
-  - US_United States_ss_1166
+  - US_United States_ss_1164
   - US_United States_ss_1168
-  - US_United States_ss_1175
-  - US_United States_trojan_1177
+  - US_United States_ss_1172
+  - US_United States_trojan_1175
+  - US_United States_ss_1195
   - US_United States_ss_1196
   - US_United States_ss_1197
-  - US_United States_ss_1198
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17144,15 +17149,14 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1162
   - US_United States_ss_1163
-  - US_United States_ss_1166
+  - US_United States_ss_1164
   - US_United States_ss_1168
-  - US_United States_ss_1175
-  - US_United States_trojan_1177
+  - US_United States_ss_1172
+  - US_United States_trojan_1175
+  - US_United States_ss_1195
   - US_United States_ss_1196
   - US_United States_ss_1197
-  - US_United States_ss_1198
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
