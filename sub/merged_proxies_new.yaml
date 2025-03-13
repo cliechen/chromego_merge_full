@@ -15007,34 +15007,28 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_1135
-  password: amazonskr05
-  port: 443
-  server: 54.169.255.43
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1138
+  name: US_United States_ss_1167
   password: amazonskr05
   port: 443
   server: 35.77.94.139
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1162
+  name: US_United States_ss_1191
   password: amazonskr05
   port: 443
   server: 43.203.229.162
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1163
+  name: US_United States_ss_1192
   password: amazonskr05
   port: 443
   server: 18.181.194.77
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1164
+  name: US_United States_ss_1193
   password: amazonskr05
   port: 443
   server: 52.196.181.68
@@ -16101,11 +16095,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1135
-  - US_United States_ss_1138
-  - US_United States_ss_1162
-  - US_United States_ss_1163
-  - US_United States_ss_1164
+  - US_United States_ss_1167
+  - US_United States_ss_1191
+  - US_United States_ss_1192
+  - US_United States_ss_1193
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17115,11 +17108,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1135
-  - US_United States_ss_1138
-  - US_United States_ss_1162
-  - US_United States_ss_1163
-  - US_United States_ss_1164
+  - US_United States_ss_1167
+  - US_United States_ss_1191
+  - US_United States_ss_1192
+  - US_United States_ss_1193
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
