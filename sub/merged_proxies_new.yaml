@@ -15007,39 +15007,43 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_1138
-  password: amazonskr05
-  port: 443
-  server: 52.196.181.68
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1143
+  name: US_United States_ss_112
   password: amazonskr05
   port: 443
   server: 35.77.94.139
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1166
-  password: amazonskr05
-  port: 443
-  server: 52.198.107.245
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1167
+  name: US_United States_ss_1124
   password: amazonskr05
   port: 443
   server: 54.169.255.43
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1168
+  name: US_United States_ss_1125
   password: amazonskr05
   port: 443
-  server: 13.231.233.44
+  server: 43.207.102.171
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1126
+  password: amazonskr05
+  port: 443
+  server: 18.183.116.21
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1128
+  network: kcp
+  port: '26706'
+  server: 47.239.242.136
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3949be3c-f862-4081-afca-9979bd189648
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16101,11 +16105,11 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1138
-  - US_United States_ss_1143
-  - US_United States_ss_1166
-  - US_United States_ss_1167
-  - US_United States_ss_1168
+  - US_United States_ss_112
+  - US_United States_ss_1124
+  - US_United States_ss_1125
+  - US_United States_ss_1126
+  - US_United States_vmess_1128
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17115,11 +17119,11 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1138
-  - US_United States_ss_1143
-  - US_United States_ss_1166
-  - US_United States_ss_1167
-  - US_United States_ss_1168
+  - US_United States_ss_112
+  - US_United States_ss_1124
+  - US_United States_ss_1125
+  - US_United States_ss_1126
+  - US_United States_vmess_1128
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
