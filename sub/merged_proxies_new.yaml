@@ -15007,36 +15007,58 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_112
+  name: US_United States_ss_1110
+  password: amazonskr05
+  port: 443
+  server: 52.198.107.245
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1112
+  password: amazonskr05
+  port: 443
+  server: 18.181.194.77
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1176
   password: amazonskr05
   port: 443
   server: 35.77.94.139
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1124
+  name: US_United States_ss_1189
   password: amazonskr05
   port: 443
-  server: 54.169.255.43
+  server: 47.128.154.164
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1125
+  name: US_United States_ss_1190
   password: amazonskr05
   port: 443
-  server: 43.207.102.171
+  server: 3.36.61.71
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1126
+  name: US_United States_ss_1191
   password: amazonskr05
   port: 443
-  server: 18.183.116.21
+  server: 47.129.162.132
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1128
+  name: US_United States_vmess_1193
+  network: kcp
+  port: '32899'
+  server: 47.243.204.174
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b9d9143b-edba-470d-8d25-0d267880fe7e
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1194
   network: kcp
   port: '26706'
   server: 47.239.242.136
@@ -16105,11 +16127,14 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_112
-  - US_United States_ss_1124
-  - US_United States_ss_1125
-  - US_United States_ss_1126
-  - US_United States_vmess_1128
+  - US_United States_ss_1110
+  - US_United States_ss_1112
+  - US_United States_ss_1176
+  - US_United States_ss_1189
+  - US_United States_ss_1190
+  - US_United States_ss_1191
+  - US_United States_vmess_1193
+  - US_United States_vmess_1194
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17119,11 +17144,14 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_112
-  - US_United States_ss_1124
-  - US_United States_ss_1125
-  - US_United States_ss_1126
-  - US_United States_vmess_1128
+  - US_United States_ss_1110
+  - US_United States_ss_1112
+  - US_United States_ss_1176
+  - US_United States_ss_1189
+  - US_United States_ss_1190
+  - US_United States_ss_1191
+  - US_United States_vmess_1193
+  - US_United States_vmess_1194
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
