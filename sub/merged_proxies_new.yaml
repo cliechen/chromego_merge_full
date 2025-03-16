@@ -15007,92 +15007,65 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_1132
+  name: US_United States_ss_1164
   password: amazonskr05
   port: 443
-  server: 13.229.59.76
+  server: 54.169.15.9
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1140
+  name: US_United States_ss_1166
   password: amazonskr05
   port: 443
-  server: 18.236.137.219
+  server: 35.86.111.233
   type: ss
+  udp: true
 - cipher: aes-256-cfb
-  delay: 699
-  name: US_United States_ss_1142
-  password: amazonskr05
-  port: 443
-  server: 43.202.49.76
-  type: ss
-- cipher: aes-256-cfb
-  delay: 496
-  name: US_United States_ss_1144
-  password: amazonskr05
-  port: 443
-  server: 52.78.98.141
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1145
+  name: US_United States_ss_1174
   password: amazonskr05
   port: 443
   server: 13.124.101.203
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1146
+  name: US_United States_ss_1175
   password: amazonskr05
   port: 443
-  server: 47.128.224.249
+  server: 18.179.8.12
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1148
+  name: US_United States_ss_1178
   password: amazonskr05
   port: 443
-  server: 34.211.230.161
+  server: 43.203.196.43
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1151
+  name: US_United States_ss_1180
   password: amazonskr05
   port: 443
-  server: 13.230.142.42
+  server: 54.184.74.88
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1152
-  password: amazonskr05
-  port: 443
-  server: 34.221.169.63
-  type: ss
-- cipher: aes-128-cfb
-  name: US_United States_ssr_1153
-  obfs: plain
-  password: shadowsocks
-  port: 443
-  protocol: origin
-  server: 184.170.241.194
-  type: ssr
-- cipher: aes-256-cfb
-  name: US_United States_ss_1156
+  name: US_United States_ss_1181
   password: amazonskr05
   port: 443
   server: 35.77.94.139
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1172
+  name: US_United States_ss_1197
   password: amazonskr05
   port: 443
   server: 3.34.253.95
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1173
+  name: US_United States_ss_1198
   password: amazonskr05
   port: 443
   server: 57.180.240.249
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1174
+  name: US_United States_ss_1199
   password: amazonskr05
   port: 443
   server: 54.169.134.156
@@ -16159,20 +16132,16 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1132
-  - US_United States_ss_1140
-  - US_United States_ss_1142
-  - US_United States_ss_1144
-  - US_United States_ss_1145
-  - US_United States_ss_1146
-  - US_United States_ss_1148
-  - US_United States_ss_1151
-  - US_United States_ss_1152
-  - US_United States_ssr_1153
-  - US_United States_ss_1156
-  - US_United States_ss_1172
-  - US_United States_ss_1173
+  - US_United States_ss_1164
+  - US_United States_ss_1166
   - US_United States_ss_1174
+  - US_United States_ss_1175
+  - US_United States_ss_1178
+  - US_United States_ss_1180
+  - US_United States_ss_1181
+  - US_United States_ss_1197
+  - US_United States_ss_1198
+  - US_United States_ss_1199
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17182,20 +17151,16 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1132
-  - US_United States_ss_1140
-  - US_United States_ss_1142
-  - US_United States_ss_1144
-  - US_United States_ss_1145
-  - US_United States_ss_1146
-  - US_United States_ss_1148
-  - US_United States_ss_1151
-  - US_United States_ss_1152
-  - US_United States_ssr_1153
-  - US_United States_ss_1156
-  - US_United States_ss_1172
-  - US_United States_ss_1173
+  - US_United States_ss_1164
+  - US_United States_ss_1166
   - US_United States_ss_1174
+  - US_United States_ss_1175
+  - US_United States_ss_1178
+  - US_United States_ss_1180
+  - US_United States_ss_1181
+  - US_United States_ss_1197
+  - US_United States_ss_1198
+  - US_United States_ss_1199
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
