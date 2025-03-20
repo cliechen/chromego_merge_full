@@ -15007,36 +15007,45 @@ proxies:
   up: 11 Mbps
   down: 55 Mbps
 - cipher: aes-256-cfb
-  name: US_United States_ss_1164
+  ip-version: dual
+  name: US_United States_ss_1136
   password: amazonskr05
   port: 443
-  server: 13.229.209.178
+  server: 54.184.74.88
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1137
+  password: amazonskr05
+  port: 443
+  server: 52.197.235.237
   tfo: false
   type: ss
-- name: US_United States_trojan_1174
+- name: US_United States_trojan_1147
   network: tcp
-  password: l3ESwpOSN3FYFAR93RYe6SAyxa0XSFC2zlSaqTClDZ4OAanXOxweCDZznRc28DyY3yTID
-  port: 28334
-  server: sakoku.meijireform.com
-  skip-cert-verify: false
-  sni: sakoku.meijireform.com
-  type: trojan
-- name: US_United States_trojan_1175
-  network: tcp
-  password: B3Kyp23AXFw95RaAwzlXZDASNeNDZz9ROEEpxBFae2yAR4O6Sc0YqCluOY3CxTDp83KxD
-  port: 28335
-  server: national.meijireform.com
-  skip-cert-verify: false
-  sni: national.meijireform.com
-  type: trojan
-- name: US_United States_trojan_1177
-  password: TOZA9E6pyq4z3pFYeIeOC3ApaSDjR2wFueaO8uNDx0czDF3YCSwa3xjZ3qZAyB4YCKCZS
+  password: 85aDyYZY30RxnpAD38lSCKaue9CDDTDOAASycaExR9OEZxOD8c25CXeSCF33lN3q43BeI
   port: 443
-  server: swiftly.meijireform.com
+  server: gharial.superpokemon.com
   skip-cert-verify: false
-  sni: swiftly.meijireform.com
+  sni: gharial.superpokemon.com
   type: trojan
-- name: US_United States_trojan_1179
+- name: US_United States_trojan_1149
+  network: tcp
+  password: 88K4yE6e3Za9YxCXR53paOnlqDy5qYIa4OczBTaFAyS0gZjS083Dz3YRCxuwOScXOFNYD
+  port: 28341
+  server: fearow.superpokemon.com
+  skip-cert-verify: false
+  sni: fearow.superpokemon.com
+  type: trojan
+- name: US_United States_trojan_1150
+  password: 0FaYIOcSy4lBg38yRxnj7RlR3RZYSq3pC9OaSDAAOw6Oe8FCpy08u8pzx3eKZacDz3XE3
+  port: 443
+  server: terture.meijireform.com
+  skip-cert-verify: false
+  sni: terture.meijireform.com
+  type: trojan
+- name: US_United States_trojan_1152
   network: tcp
   password: 8jqRgpyc5lEe34TzC9A8DuFD23aS3ZyCleIFuCxp3xOYnZRCeA3Oc3yCga8C2DKYBDaRp
   port: 443
@@ -15044,21 +15053,21 @@ proxies:
   skip-cert-verify: false
   sni: mention.protocolbuffer.com
   type: trojan
-- cipher: aes-256-cfb
-  name: US_United States_ss_1180
-  password: amazonskr05
-  port: 443
-  server: 13.229.233.60
-  tfo: false
-  type: ss
 - cipher: aes-128-cfb
-  name: US_United States_ss_1185
+  name: US_United States_ss_1158
   password: shadowsocks
   port: 443
   server: 184.170.241.194
   tfo: false
   type: ss
-- name: US_United States_trojan_1187
+- name: US_United States_trojan_1159
+  password: '74260708004220600'
+  port: 443
+  server: capital-hyena.shiner427.skin
+  skip-cert-verify: false
+  sni: capital-hyena.shiner427.skin
+  type: trojan
+- name: US_United States_trojan_1160
   network: tcp
   password: SDYlNZ6z5DA8TZqz33YnN4lzpp88YBZOyXC5we8AZBqn6YXwI0gISyalXjIOyNwCaDpDORKSyDCSg9S
   port: 28333
@@ -15067,29 +15076,29 @@ proxies:
   sni: rolling.homeofbrave.net
   type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1189
+  name: US_United States_ss_1161
   password: amazonskr05
   port: 443
-  server: 13.114.76.143
+  server: 13.215.250.172
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1190
+  name: US_United States_ss_1162
   password: amazonskr05
   port: 443
-  server: 18.179.8.12
+  server: 52.78.98.141
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1191
+  name: US_United States_ss_1163
   password: amazonskr05
   port: 443
-  server: 18.181.194.77
+  server: 43.201.85.71
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1195
+  name: US_United States_vmess_1168
   network: kcp
   port: '26706'
   server: 47.239.242.136
@@ -16158,18 +16167,19 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1164
-  - US_United States_trojan_1174
-  - US_United States_trojan_1175
-  - US_United States_trojan_1177
-  - US_United States_trojan_1179
-  - US_United States_ss_1180
-  - US_United States_ss_1185
-  - US_United States_trojan_1187
-  - US_United States_ss_1189
-  - US_United States_ss_1190
-  - US_United States_ss_1191
-  - US_United States_vmess_1195
+  - US_United States_ss_1136
+  - US_United States_ss_1137
+  - US_United States_trojan_1147
+  - US_United States_trojan_1149
+  - US_United States_trojan_1150
+  - US_United States_trojan_1152
+  - US_United States_ss_1158
+  - US_United States_trojan_1159
+  - US_United States_trojan_1160
+  - US_United States_ss_1161
+  - US_United States_ss_1162
+  - US_United States_ss_1163
+  - US_United States_vmess_1168
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17179,18 +17189,19 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1164
-  - US_United States_trojan_1174
-  - US_United States_trojan_1175
-  - US_United States_trojan_1177
-  - US_United States_trojan_1179
-  - US_United States_ss_1180
-  - US_United States_ss_1185
-  - US_United States_trojan_1187
-  - US_United States_ss_1189
-  - US_United States_ss_1190
-  - US_United States_ss_1191
-  - US_United States_vmess_1195
+  - US_United States_ss_1136
+  - US_United States_ss_1137
+  - US_United States_trojan_1147
+  - US_United States_trojan_1149
+  - US_United States_trojan_1150
+  - US_United States_trojan_1152
+  - US_United States_ss_1158
+  - US_United States_trojan_1159
+  - US_United States_trojan_1160
+  - US_United States_ss_1161
+  - US_United States_ss_1162
+  - US_United States_ss_1163
+  - US_United States_vmess_1168
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
