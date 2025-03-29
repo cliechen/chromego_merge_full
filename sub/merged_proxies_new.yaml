@@ -15006,200 +15006,62 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: rc4-md5
-  name: US_United States_ss_1035
-  password: b17902c35beb3c11
-  port: 29951
-  server: 163.171.181.49
-  type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1036
+  name: US_United States_ss_101
   password: amazonskr05
   port: 443
-  server: 3.36.26.148
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: US_United States_vmess_1037
-  network: ws
-  port: 420
-  server: ac42c440-stw740-sxk0uf-4fy2.fmt2-us.sghuawei.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 753cc4e8-f9a3-11ed-bce0-f23c93665044
-  ws-headers:
-    Host: ac42c440-stw740-sxk0uf-4fy2.fmt2-us.sghuawei.com
-  ws-path: /
-- cipher: aes-256-cfb
-  country: 🇸🇬SG
-  delay: 1565
-  name: US_United States_ss_1040
-  password: amazonskr05
-  port: 443
-  server: 3.0.50.161
-  type: ss
-- cipher: aes-256-cfb
-  country: 🇧🇪BE
-  delay: 1627
-  name: US_United States_ss_1041
-  password: amazonskr05
-  port: 443
-  server: 57.181.29.160
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1042
-  password: amazonskr05
-  port: 443
-  server: 52.195.209.247
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1048
-  password: amazonskr05
-  port: 443
-  server: 18.179.8.12
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1049
-  password: amazonskr05
-  port: 443
-  server: 34.222.2.112
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1051
-  password: amazonskr05
-  port: 443
-  server: 13.112.73.126
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1054
-  password: amazonskr05
-  port: 443
-  server: 54.169.188.214
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1055
-  password: amazonskr05
-  port: 443
-  server: 52.76.22.133
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1056
-  password: amazonskr05
-  port: 443
-  server: 43.201.54.89
+  server: 18.183.76.102
   tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_102
+  password: amazonskr05
+  port: 443
+  server: 54.179.52.175
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1063
-  port: 47231
-  server: 38.147.188.96
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 178eb98b-3999-4094-a739-1456bdd3ebe1
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1072
-  port: 18733
-  server: 23.236.68.110
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6b2e2719-a545-49c1-ab3f-6f4104ae9f56
-- cipher: aes-256-cfb
-  name: US_United States_ss_1073
-  password: amazonskr05
-  port: 443
-  server: 43.203.249.105
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1074
-  password: amazonskr05
-  port: 443
-  server: 13.125.231.170
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1075
-  password: amazonskr05
-  port: 443
-  server: 13.125.21.61
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1083
-  network: kcp
-  port: '26706'
-  server: 47.239.242.136
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3949be3c-f862-4081-afca-9979bd189648
-- cipher: aes-256-cfb
-  name: US_United States_ss_1165
-  password: amazonskr05
-  port: 443
-  server: 43.202.67.225
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1166
-  password: amazonskr05
-  port: 443
-  server: 43.207.203.164
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1168
-  password: amazonskr05
-  port: 443
-  server: 54.178.177.97
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1169
-  password: amazonskr05
-  port: 443
-  server: 43.207.150.238
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1170
-  password: amazonskr05
-  port: 443
-  server: 47.128.245.70
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1172
-  password: amazonskr05
-  port: 443
-  server: 18.140.70.168
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1174
+  name: US_United States_vmess_103
   network: ws
   port: 443
   raw:
-    add: 152.67.251.232
+    add: 132.145.232.171
     aid: '0'
     alpn: ''
     fp: ''
-    host: irvideo.cfd
-    id: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+    host: beyonddsz.cfd
+    id: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
     net: ws
     path: /linkws
     port: 443
-    ps: 🇺🇸 US_410
+    ps: 🇩🇪 DE_203
     scy: ''
     sni: ''
     tls: tls
     type: ''
     v: '2'
-  server: 152.67.251.232
-  servername: irvideo.cfd
+  server: 132.145.232.171
+  servername: beyonddsz.cfd
+  tls: true
+  type: vmess
+  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
+  ws-opts:
+    headers:
+      Host: beyonddsz.cfd
+    path: /linkws
+- cipher: aes-256-cfb
+  name: US_United States_ss_104
+  password: amazonskr05
+  port: 443
+  server: 3.38.92.181
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_105
+  network: ws
+  port: 443
+  server: 193.122.58.158
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
@@ -15208,21 +15070,14 @@ proxies:
       Host: irvideo.cfd
     path: /linkws
 - cipher: aes-256-cfb
-  name: US_United States_ss_1179
+  name: US_United States_ss_106
   password: amazonskr05
   port: 443
-  server: 54.169.64.23
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1180
-  password: amazonskr05
-  port: 443
-  server: 18.183.76.102
-  tfo: false
+  server: 3.36.26.148
   type: ss
 - alterId: 2
   cipher: auto
-  name: US_United States_vmess_1194
+  name: US_United States_vmess_1020
   network: ws
   port: '420'
   server: 0e1f11d2-stw740-sy3miy-3kis.fmt2-us.sghuawei.com
@@ -15238,7 +15093,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: US_United States_vmess_1196
+  name: US_United States_vmess_1022
   network: ws
   port: '420'
   server: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
@@ -15253,25 +15108,55 @@ proxies:
       Host: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
     path: /
 - cipher: aes-256-cfb
-  name: US_United States_ss_1197
+  name: US_United States_ss_1023
   password: amazonskr05
   port: 443
   server: 47.129.51.201
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1198
+  name: US_United States_ss_1024
   password: amazonskr05
   port: 443
   server: 43.203.206.73
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1199
+  name: US_United States_ss_1025
   password: amazonskr05
   port: 443
   server: 18.181.194.77
   tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1031
+  network: kcp
+  port: '26706'
+  server: 47.239.242.136
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3949be3c-f862-4081-afca-9979bd189648
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1134
+  network: ws
+  port: 443
+  server: 152.67.251.232
+  servername: irvideo.cfd
+  tls: true
+  type: vmess
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  ws-opts:
+    headers:
+      Host: irvideo.cfd
+    path: /linkws
+- cipher: chacha20-ietf
+  name: US_United States_ss_1135
+  password: asd123456
+  port: 8388
+  server: 137.175.113.215
   type: ss
 - name: TW_Taiwan_reality_0
   type: vless
@@ -16334,38 +16219,20 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1035
-  - US_United States_ss_1036
-  - US_United States_vmess_1037
-  - US_United States_ss_1040
-  - US_United States_ss_1041
-  - US_United States_ss_1042
-  - US_United States_ss_1048
-  - US_United States_ss_1049
-  - US_United States_ss_1051
-  - US_United States_ss_1054
-  - US_United States_ss_1055
-  - US_United States_ss_1056
-  - US_United States_vmess_1063
-  - US_United States_vmess_1072
-  - US_United States_ss_1073
-  - US_United States_ss_1074
-  - US_United States_ss_1075
-  - US_United States_vmess_1083
-  - US_United States_ss_1165
-  - US_United States_ss_1166
-  - US_United States_ss_1168
-  - US_United States_ss_1169
-  - US_United States_ss_1170
-  - US_United States_ss_1172
-  - US_United States_vmess_1174
-  - US_United States_ss_1179
-  - US_United States_ss_1180
-  - US_United States_vmess_1194
-  - US_United States_vmess_1196
-  - US_United States_ss_1197
-  - US_United States_ss_1198
-  - US_United States_ss_1199
+  - US_United States_ss_101
+  - US_United States_ss_102
+  - US_United States_vmess_103
+  - US_United States_ss_104
+  - US_United States_vmess_105
+  - US_United States_ss_106
+  - US_United States_vmess_1020
+  - US_United States_vmess_1022
+  - US_United States_ss_1023
+  - US_United States_ss_1024
+  - US_United States_ss_1025
+  - US_United States_vmess_1031
+  - US_United States_vmess_1134
+  - US_United States_ss_1135
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17375,38 +17242,20 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ss_1035
-  - US_United States_ss_1036
-  - US_United States_vmess_1037
-  - US_United States_ss_1040
-  - US_United States_ss_1041
-  - US_United States_ss_1042
-  - US_United States_ss_1048
-  - US_United States_ss_1049
-  - US_United States_ss_1051
-  - US_United States_ss_1054
-  - US_United States_ss_1055
-  - US_United States_ss_1056
-  - US_United States_vmess_1063
-  - US_United States_vmess_1072
-  - US_United States_ss_1073
-  - US_United States_ss_1074
-  - US_United States_ss_1075
-  - US_United States_vmess_1083
-  - US_United States_ss_1165
-  - US_United States_ss_1166
-  - US_United States_ss_1168
-  - US_United States_ss_1169
-  - US_United States_ss_1170
-  - US_United States_ss_1172
-  - US_United States_vmess_1174
-  - US_United States_ss_1179
-  - US_United States_ss_1180
-  - US_United States_vmess_1194
-  - US_United States_vmess_1196
-  - US_United States_ss_1197
-  - US_United States_ss_1198
-  - US_United States_ss_1199
+  - US_United States_ss_101
+  - US_United States_ss_102
+  - US_United States_vmess_103
+  - US_United States_ss_104
+  - US_United States_vmess_105
+  - US_United States_ss_106
+  - US_United States_vmess_1020
+  - US_United States_vmess_1022
+  - US_United States_ss_1023
+  - US_United States_ss_1024
+  - US_United States_ss_1025
+  - US_United States_vmess_1031
+  - US_United States_vmess_1134
+  - US_United States_ss_1135
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
