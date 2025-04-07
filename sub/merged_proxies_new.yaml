@@ -15006,54 +15006,360 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- allowInsecure: ''
-  name: US_United States_trojan_1037
+- name: US_United States_trojan_1037
   network: ws
-  password: Aimer
+  password: 6040a753-e35b-4384-8713-96f3c639b621
   port: 443
-  server: 172.64.35.236
+  server: 104.21.21.226
+  skip-cert-verify: true
+  sni: uK803.890689.Xyz
+  tfo: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: uK803.890689.Xyz
+    path: /WxWOWO1YA9bs2HOmaeWimvT3
+- alterId: 0
+  cipher: auto
+  delay: 2741
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1038
+  network: ws
+  port: 38003
+  server: 137.175.10.241
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: 38.14.107.225
+    path: /path/181721272114
+- alterId: 0
+  cipher: auto
+  country: 🏁ZZ
+  delay: 2691
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_1043
+  network: ws
+  port: 2096
+  server: 1743919941.tencentapp.cn
+  servername: 1743919978.speed.adl.cccp.freefly.pp.ua
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      HOST: 1743919978.speed.adl.cccp.freefly.pp.ua
+    path: /
+- allowInsecure: ''
+  name: US_United States_trojan_1045
+  network: ws
+  password: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  port: 443
+  server: 172.67.210.210
   skip-cert-verify: false
-  sni: epccw.ambercc.filegear-sg.me
+  sni: sanjose02.852224.ggff.net
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: epccw.ambercc.filegear-sg.me
-    path: /?ed=2560
+      Host: sanjose02.852224.ggff.net
+    path: /T5yZBrY2Qkg2cThJQeJb
 - cipher: aes-256-cfb
-  country: 🇰🇷KR
-  delay: 657
-  name: US_United States_ss_1038
-  password: amazonskr05
-  port: 443
-  server: 52.79.247.8
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_1074
+  name: US_United States_ss_1079
   password: amazonskr05
   port: 443
   server: 18.181.170.89
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1093
+  name: US_United States_ss_1099
   password: amazonskr05
   port: 443
   server: 13.250.5.171
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1094
+  name: US_United States_ss_10100
   password: amazonskr05
   port: 443
   server: 54.254.9.107
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1095
+  name: US_United States_ss_10101
   password: amazonskr05
   port: 443
   server: 54.199.64.156
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: US_United States_vmess_1166
+  network: tcp
+  port: 52143
+  server: 142.4.104.33
+  skip-cert-verify: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_1167
+  network: ws
+  port: 7088
+  raw:
+    add: 182c3a30-sum4g0-sx1cxx-1tfjk.lzc.plebai.net
+    aid: '2'
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
+    net: ws
+    path: /
+    port: 7088
+    ps: SharkTech
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 182c3a30-sum4g0-sx1cxx-1tfjk.lzc.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 49396d98-f4b4-11ef-8c3f-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1174
+  network: ws
+  port: 443
+  raw:
+    add: cg1d01.waimaoglobaldirect.cc
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: cg1d01.waimaoglobaldirect.cc
+    id: 47a269a8-4c98-4a51-b633-521d8da9cd57
+    net: ws
+    path: /api/v1/graphql
+    port: 443
+    ps: V2CROSS.COM
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: cg1d01.waimaoglobaldirect.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 47a269a8-4c98-4a51-b633-521d8da9cd57
+  ws-opts:
+    headers:
+      Host: cg1d01.waimaoglobaldirect.cc
+    path: /api/v1/graphql
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_1175
+  network: ws
+  port: 8880
+  raw:
+    add: a9ef9b55-sueps0-sxrtmf-1kww5.se.plebai.net
+    aid: '2'
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: 56b7180c-2545-11ee-b973-f23c913c8d2b
+    net: ws
+    path: /
+    port: 8880
+    ps: wowrack
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: a9ef9b55-sueps0-sxrtmf-1kww5.se.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 56b7180c-2545-11ee-b973-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1178
+  network: ws
+  port: 2096
+  raw:
+    add: 141.101.120.195
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: 1743919978.speed.adl.cccp.freefly.pp.ua
+    id: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+    net: ws
+    path: /
+    port: '2096'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: 1743919978.speed.adl.cccp.freefly.pp.ua
+    tls: tls
+    type: ''
+    v: '2'
+  server: 141.101.120.195
+  servername: 1743919978.speed.adl.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743919978.speed.adl.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1179
+  network: ws
+  port: 80
+  server: 104.18.23.68
+  tls: false
+  type: vmess
+  uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a
+  ws-opts:
+    headers:
+      Host: 375175914186712025032911325872796.s15.chibaba.filegear-sg.me
+    path: /s15.html?ed=2048
+- alterId: 2
+  cipher: auto
+  name: US_United States_vmess_1180
+  network: ws
+  port: 80
+  raw:
+    add: 9e7694c0-sueps0-sxrtmf-1kww5.sv.plebai.net
+    aid: '2'
+    alpn: ''
+    fp: ''
+    host: broadcastlv.chat.bilibili.com
+    id: 56b7180c-2545-11ee-b973-f23c913c8d2b
+    net: ws
+    path: /
+    port: 80
+    ps: PetaExpress
+    scy: ''
+    sni: ''
+    tls: ''
+    type: ''
+    v: '2'
+  server: 9e7694c0-sueps0-sxrtmf-1kww5.sv.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 56b7180c-2545-11ee-b973-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- allowInsecure: ''
+  name: US_United States_trojan_1182
+  network: ws
+  password: cd0e795a-4f26-4f8c-9981-ed8b7dcb6126
+  port: 443
+  server: 104.21.58.135
+  skip-cert-verify: false
+  sni: cdE.818185.Xyz
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cde.818185.xyz
+    path: /93fAx7DxPbqU8RhisheV
+- name: US_United States_trojan_1185
+  network: ws
+  password: 0cda5f7e-cc55-4ff2-8ad8-268b9b99dd01
+  port: 443
+  server: 104.21.6.179
+  sni: uS6-16.890601.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uS6-16.890601.xyz
+    path: /ILLcisbMYUd6MQzxVoMQ
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1186
+  network: ws
+  port: 443
+  raw:
+    add: cg1d08.waimaoglobaldirect.cc
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: cg1d08.waimaoglobaldirect.cc
+    id: 47a269a8-4c98-4a51-b633-521d8da9cd57
+    net: ws
+    path: /api/v1/graphql
+    port: 443
+    ps: CloudFlare
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: cg1d08.waimaoglobaldirect.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 47a269a8-4c98-4a51-b633-521d8da9cd57
+  ws-opts:
+    headers:
+      Host: cg1d08.waimaoglobaldirect.cc
+    path: /api/v1/graphql
+- cipher: aes-256-cfb
+  name: US_United States_ss_1189
+  password: amazonskr05
+  port: 443
+  server: 13.229.208.218
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: US_United States_ss_11110
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.114.114.245
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_11114
+  password: amazonskr05
+  port: 443
+  server: 18.140.50.192
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_11115
+  password: amazonskr05
+  port: 443
+  server: 35.72.13.55
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_11116
+  password: amazonskr05
+  port: 443
+  server: 13.212.241.11
   tfo: false
   type: ss
 - name: TW_Taiwan_reality_0
@@ -16118,11 +16424,28 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_trojan_1037
-  - US_United States_ss_1038
-  - US_United States_ss_1074
-  - US_United States_ss_1093
-  - US_United States_ss_1094
-  - US_United States_ss_1095
+  - US_United States_vmess_1038
+  - US_United States_vmess_1043
+  - US_United States_trojan_1045
+  - US_United States_ss_1079
+  - US_United States_ss_1099
+  - US_United States_ss_10100
+  - US_United States_ss_10101
+  - US_United States_vmess_1166
+  - US_United States_vmess_1167
+  - US_United States_vmess_1174
+  - US_United States_vmess_1175
+  - US_United States_vmess_1178
+  - US_United States_vmess_1179
+  - US_United States_vmess_1180
+  - US_United States_trojan_1182
+  - US_United States_trojan_1185
+  - US_United States_vmess_1186
+  - US_United States_ss_1189
+  - US_United States_ss_11110
+  - US_United States_ss_11114
+  - US_United States_ss_11115
+  - US_United States_ss_11116
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17133,11 +17456,28 @@ proxy-groups:
   - US_United States_vmess_01000
   - US_United States_hysteria_61
   - US_United States_trojan_1037
-  - US_United States_ss_1038
-  - US_United States_ss_1074
-  - US_United States_ss_1093
-  - US_United States_ss_1094
-  - US_United States_ss_1095
+  - US_United States_vmess_1038
+  - US_United States_vmess_1043
+  - US_United States_trojan_1045
+  - US_United States_ss_1079
+  - US_United States_ss_1099
+  - US_United States_ss_10100
+  - US_United States_ss_10101
+  - US_United States_vmess_1166
+  - US_United States_vmess_1167
+  - US_United States_vmess_1174
+  - US_United States_vmess_1175
+  - US_United States_vmess_1178
+  - US_United States_vmess_1179
+  - US_United States_vmess_1180
+  - US_United States_trojan_1182
+  - US_United States_trojan_1185
+  - US_United States_vmess_1186
+  - US_United States_ss_1189
+  - US_United States_ss_11110
+  - US_United States_ss_11114
+  - US_United States_ss_11115
+  - US_United States_ss_11116
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
