@@ -15006,143 +15006,538 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: US_United States_trojan_1039
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1066
   network: ws
-  password: aTArbZ2F0E
   port: 443
-  server: 172.66.168.209
-  sni: uSa-vp-27.bLAzECLOUD.SITE
+  server: 188.114.99.183
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- name: US_United States_trojan_1067
+  network: ws
+  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
+  port: 443
+  server: 172.67.159.56
+  sni: Fgh9JkR5.890617.xYz
   type: trojan
   ws-opts:
     headers:
-      Host: uSa-vp-27.bLAzECLOUD.SITE
-    path: /linkvkws
-- alterId: '0'
+      Host: Fgh9JkR5.890617.xYz
+    path: /lWljHWvIMOj85lz42MdhsCLV
+- alterId: 0
   cipher: auto
-  name: US_United States_vmess_1041
+  name: US_United States_vmess_1069
   network: ws
-  port: '443'
+  port: 443
+  server: 188.114.97.6
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- allowInsecure: ''
+  name: US_United States_trojan_1073
+  network: ws
+  password: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
+  port: 443
+  server: 104.21.64.1
+  skip-cert-verify: false
+  sni: 1g.890699.xyZ
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1g.890699.xyz
+    path: /lXENb74xF4ylXngZ
+- allowInsecure: ''
+  name: US_United States_trojan_1075
+  network: ws
+  password: redfree8
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: redfree8-p1.pooriashop.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: redfree8-p1.pooriashop.ir
+    path: /trJF1XisQEbWZpxEHh?ed=2560
+- name: US_United States_trojan_1081
+  network: ws
+  password: 12bb340e-291c-406a-8402-c43f37fa201d
+  port: 443
+  server: oxui.supercopilot.top
+  skip-cert-verify: false
+  type: trojan
+  ws-opts:
+    path: '%2F12bb340e-291c-406a-8402-c43f37fa201d'
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1087
+  network: ws
+  port: 8083
+  server: 95eeab25-sunz40-t5bgb3-l4nv.se.plebai.net
+  type: vmess
+  uuid: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1088
+  network: ws
+  port: 8083
+  server: 7af650bd-sunz40-svgb54-1m0fq.se.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1091
+  network: ws
+  port: 443
+  raw:
+    add: 104.21.15.36
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: linde06.indiavideo.sbs
+    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    net: ws
+    path: /linkws
+    port: 443
+    ps: CloudFlare
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.21.15.36
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1092
+  network: ws
+  port: 443
+  raw:
+    add: 172.67.179.199
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: linde06.indiavideo.sbs
+    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇺🇸 US_309
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 172.67.179.199
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1096
+  network: ws
+  port: 443
+  raw:
+    add: cloudgetservice.mcloudservice.site
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: maXNEtVIP-usA-VP3.nETKH3.SiTE
+    id: 3cf58606-5f2a-4609-9abd-404f633bd7e0
+    net: ws
+    path: /linkws?ed=2560
+    port: '443'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: maXNEtVIP-usA-VP3.nETKH3.SiTE
+    tls: tls
+    type: ''
+    v: '2'
   server: cloudgetservice.mcloudservice.site
+  servername: maXNEtVIP-usA-VP3.nETKH3.SiTE
   tls: true
   type: vmess
   uuid: 3cf58606-5f2a-4609-9abd-404f633bd7e0
   ws-opts:
     headers:
-      host: maXNEtVIP-usA-VP3.nETKH3.SiTE
+      Host: maXNEtVIP-usA-VP3.nETKH3.SiTE
     path: /linkws?ed=2560
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1045
+  name: US_United States_vmess_1097
   network: ws
-  port: 2053
-  server: cloudflare.182682.xyz
-  skip-cert-verify: true
-  tfo: false
+  port: 443
+  raw:
+    add: 188.114.96.5
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: linde06.indiavideo.sbs
+    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🏁 ZZ_354
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 188.114.96.5
+  servername: ''
+  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
-  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      Host: sg1.pavo.eu.org
-    path: /sg1vmess
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  h2-opts:
+    host:
+    - txui.supercopilot.top
+    path: /ecd7820d-941f-47ba-b821-aa33e77d1a4f
+  name: US_United States_vmess_1099
+  network: h2
+  port: 443
+  server: txui.supercopilot.top
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: ecd7820d-941f-47ba-b821-aa33e77d1a4f
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_10101
+  network: ws
+  port: '443'
+  server: uK802.890689.XYz
+  tls: true
+  type: vmess
+  uuid: 6040a753-e35b-4384-8713-96f3c639b621
+  ws-opts:
+    headers:
+      host: uK802.890689.XYz
+    path: /0b6SAaNbs2HOmaeWimvT3
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_10102
+  network: ws
+  port: 443
+  raw:
+    add: usa-sanjose-one.890614.filegear-sg.me
+    aid: 0
+    alpn: ''
+    fp: ''
+    host: usa-sanjose-one.890614.filegear-sg.me
+    id: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+    net: ws
+    path: /YfB29GXf4cThJQeJb
+    port: 443
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: ''
+    sni: ''
+    tls: tls
+    type: auto
+    v: null
+  server: usa-sanjose-one.890614.filegear-sg.me
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 89c1aea7-4d0d-4013-b663-0f94a3e6bdbd
+  ws-opts:
+    headers:
+      Host: usa-sanjose-one.890614.filegear-sg.me
+    path: /YfB29GXf4cThJQeJb
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_10103
+  network: ws
+  port: 8083
+  server: b9cfeb27-sunz40-tbpkla-1otc2.se.plebai.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
+  ws-headers:
+    Host: broadcastlv.chat.bilibili.com
+  ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_10104
+  network: ws
+  port: '8083'
+  server: dcd6b19c-sunz40-t78iw5-e7db.se.plebai.net
+  type: vmess
+  uuid: 213e222c-8e0f-11ef-8dc4-f23c91cfbbc9
+  ws-opts:
+    headers:
+      host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_10106
+  network: ws
+  port: 443
+  server: us10-09.852224.ggff.net
+  tls: true
+  type: vmess
+  uuid: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
+  ws-opts:
+    headers:
+      Host: us10-09.852224.ggff.net
+    path: /SNwNdunw28lVztopw90eoXel
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_10109
+  network: ws
+  port: 443
+  raw:
+    add: 104.21.51.208
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: linde06.indiavideo.sbs
+    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇺🇸 US_286
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.21.51.208
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- name: US_United States_trojan_10110
+  network: ws
+  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
+  port: 443
+  server: 104.21.49.59
+  sni: Fgh9JkR5.890617.xYz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Fgh9JkR5.890617.xYz
+    path: /lWljHWvIMOj85lz42MdhsCLV
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: US_United States_vmess_10112
+  network: ws
+  port: 8083
+  server: 2ebc590b-suvds0-sv5llu-1ldl3.se.plebai.net
+  type: vmess
+  udp: true
+  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_10115
+  network: ws
+  port: 443
+  server: 188.114.99.205
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
 - cipher: aes-256-cfb
-  name: US_United States_ss_1080
+  name: US_United States_ss_10116
   password: amazonskr05
   port: 443
-  server: 52.194.186.247
+  server: 34.220.173.163
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1090
-  password: '1234'
-  port: 1234
-  server: 54.199.242.76
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1095
+  name: US_United States_ss_10131
   password: '1234'
   port: 1234
   server: 54.255.247.220
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1099
+  name: US_United States_ss_10136
   password: amazonskr05
   port: 443
-  server: 54.199.198.40
+  server: 47.129.241.217
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10100
+  name: US_United States_ss_10137
   password: amazonskr05
   port: 443
-  server: 52.194.243.103
+  server: 54.255.246.167
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10101
+  name: US_United States_ss_10138
   password: amazonskr05
   port: 443
-  server: 13.114.140.139
+  server: 13.229.180.165
   tfo: false
   type: ss
-- name: US_United States_trojan_10112
+- alpn:
+  - http%2F1.1
+  name: US_United States_trojan_1139
   network: ws
-  password: Aimer
+  password: 2fec7227-9abe-46f2-af18-78302b836c45
   port: 443
-  server: 23.95.248.118
-  skip-cert-verify: false
-  sni: epccr.ambercc.filegear-sg.me
+  server: 172.67.208.155
+  sni: 3r.2030.pp.ua
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      Host: epccr.ambercc.filegear-sg.me
-    path: /?ed=2560
+      Host: 3r.2030.pp.ua
+    path: /XjTi1NYwi9A2bckpqdDoAgkondVWl
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1143
+  name: US_United States_vmess_1141
   network: ws
   port: 443
-  server: 104.18.149.75
-  servername: us.insbot.filegear-sg.me
-  skip-cert-verify: true
+  server: 188.114.97.79
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
   tls: true
   type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      Host: us.insbot.filegear-sg.me
-    path: /aa
-- cipher: chacha20-ietf
-  name: US_United States_ss_1144
-  password: asd123456
-  port: 8388
-  server: 137.175.113.193
-  type: ss
-- cipher: aes-128-cfb
-  delay: 803
-  name: US_United States_ss_1147
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- name: US_United States_trojan_1151
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1144
   network: ws
-  password: Ng35283528
   port: 443
-  server: 104.16.83.176
-  skip-cert-verify: true
-  sni: c2.validbv3528.eu.org
-  tfo: false
-  type: trojan
-  udp: true
+  raw:
+    add: 188.114.97.3
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: linde06.indiavideo.sbs
+    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🏁 ZZ_364
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 188.114.97.3
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
   ws-opts:
     headers:
-      Host: c2.validbv3528.eu.org
-    path: /?ed=2560
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1152
+  network: ws
+  port: 443
+  server: 172.67.161.77
+  servername: linde06.indiavideo.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1160
+  network: ws
+  port: 443
+  raw:
+    add: 188.114.96.2
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: linde06.indiavideo.sbs
+    id: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🏁 ZZ_368
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 188.114.96.2
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: linde06.indiavideo.sbs
+    path: /linkws
+- delay: 2145
+  name: US_United States_trojan_1163
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: true
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16204,20 +16599,39 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1039
-  - US_United States_vmess_1041
-  - US_United States_vmess_1045
-  - US_United States_ss_1080
-  - US_United States_ss_1090
-  - US_United States_ss_1095
-  - US_United States_ss_1099
-  - US_United States_ss_10100
-  - US_United States_ss_10101
-  - US_United States_trojan_10112
-  - US_United States_vmess_1143
-  - US_United States_ss_1144
-  - US_United States_ss_1147
-  - US_United States_trojan_1151
+  - US_United States_vmess_1066
+  - US_United States_trojan_1067
+  - US_United States_vmess_1069
+  - US_United States_trojan_1073
+  - US_United States_trojan_1075
+  - US_United States_trojan_1081
+  - US_United States_vmess_1087
+  - US_United States_vmess_1088
+  - US_United States_vmess_1091
+  - US_United States_vmess_1092
+  - US_United States_vmess_1096
+  - US_United States_vmess_1097
+  - US_United States_vmess_1099
+  - US_United States_vmess_10101
+  - US_United States_vmess_10102
+  - US_United States_vmess_10103
+  - US_United States_vmess_10104
+  - US_United States_vmess_10106
+  - US_United States_vmess_10109
+  - US_United States_trojan_10110
+  - US_United States_vmess_10112
+  - US_United States_vmess_10115
+  - US_United States_ss_10116
+  - US_United States_ss_10131
+  - US_United States_ss_10136
+  - US_United States_ss_10137
+  - US_United States_ss_10138
+  - US_United States_trojan_1139
+  - US_United States_vmess_1141
+  - US_United States_vmess_1144
+  - US_United States_vmess_1152
+  - US_United States_vmess_1160
+  - US_United States_trojan_1163
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17227,20 +17641,39 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1039
-  - US_United States_vmess_1041
-  - US_United States_vmess_1045
-  - US_United States_ss_1080
-  - US_United States_ss_1090
-  - US_United States_ss_1095
-  - US_United States_ss_1099
-  - US_United States_ss_10100
-  - US_United States_ss_10101
-  - US_United States_trojan_10112
-  - US_United States_vmess_1143
-  - US_United States_ss_1144
-  - US_United States_ss_1147
-  - US_United States_trojan_1151
+  - US_United States_vmess_1066
+  - US_United States_trojan_1067
+  - US_United States_vmess_1069
+  - US_United States_trojan_1073
+  - US_United States_trojan_1075
+  - US_United States_trojan_1081
+  - US_United States_vmess_1087
+  - US_United States_vmess_1088
+  - US_United States_vmess_1091
+  - US_United States_vmess_1092
+  - US_United States_vmess_1096
+  - US_United States_vmess_1097
+  - US_United States_vmess_1099
+  - US_United States_vmess_10101
+  - US_United States_vmess_10102
+  - US_United States_vmess_10103
+  - US_United States_vmess_10104
+  - US_United States_vmess_10106
+  - US_United States_vmess_10109
+  - US_United States_trojan_10110
+  - US_United States_vmess_10112
+  - US_United States_vmess_10115
+  - US_United States_ss_10116
+  - US_United States_ss_10131
+  - US_United States_ss_10136
+  - US_United States_ss_10137
+  - US_United States_ss_10138
+  - US_United States_trojan_1139
+  - US_United States_vmess_1141
+  - US_United States_vmess_1144
+  - US_United States_vmess_1152
+  - US_United States_vmess_1160
+  - US_United States_trojan_1163
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
