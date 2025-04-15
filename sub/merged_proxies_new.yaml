@@ -15006,109 +15006,262 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- allowInsecure: ''
-  name: US_United States_trojan_1086
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1069
   network: ws
-  password: redfree8
   port: 443
-  server: 104.17.148.22
+  server: 104.21.9.236
   skip-cert-verify: false
-  sni: redfree8-p1.pooriashop.ir
   tls: true
-  type: trojan
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
   ws-opts:
     headers:
-      Host: redfree8-p1.pooriashop.ir
-    path: /trJF1XisQEbWZpxEHh?ed=2560
-- cipher: aes-256-cfb
+      Host: hms19.best-tizi.top
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1072
+  network: ws
+  port: 443
+  raw:
+    add: 162.159.8.120
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: hms19.best-tizi.top
+    id: 62aa5f80-0328-4004-a375-7f5a59df4022
+    net: ws
+    path: /LINKWS
+    port: 443
+    ps: 🏁 ZZ_366
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 162.159.8.120
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /LINKWS
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1073
+  network: ws
+  port: 443
+  raw:
+    add: 104.18.222.139
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: hms19.best-tizi.top
+    id: 62aa5f80-0328-4004-a375-7f5a59df4022
+    net: ws
+    path: /linkws?@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1?ed=2560/linkws
+    port: '443'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: auto
+    sni: hms19.best-tizi.top
+    tls: tls
+    type: ''
+    v: '2'
+  server: 104.18.222.139
+  servername: hms19.best-tizi.top
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /linkws?@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1@AZARBAYJB1?ed=2560/linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1076
+  network: ws
+  port: 443
+  raw:
+    add: 172.67.138.69
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: hms19.best-tizi.top
+    id: 62aa5f80-0328-4004-a375-7f5a59df4022
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇺🇸 US_326
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 172.67.138.69
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1077
+  network: tcp
+  port: 30251
+  raw:
+    add: 35.220.230.251
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 86c9c119-c46d-45a9-82a6-75a886e5e795
+    net: tcp
+    path: /
+    port: '30251'
+    ps: 🔥Join+Telegram:@FarahVPN🟣
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 35.220.230.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1082
+  network: ws
+  port: 443
+  raw:
+    add: parsvds.ir
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: hms19.best-tizi.top
+    id: 62aa5f80-0328-4004-a375-7f5a59df4022
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇺🇸 US_308
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: parsvds.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1083
+  network: ws
+  port: 443
+  raw:
+    add: ParsVds.ir
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: hms19.best-tizi.top
+    id: 62aa5f80-0328-4004-a375-7f5a59df4022
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇺🇸 US_312
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: ParsVds.ir
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1086
+  network: ws
+  port: 443
+  raw:
+    add: 172.67.131.17
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: hms19.best-tizi.top
+    id: 62aa5f80-0328-4004-a375-7f5a59df4022
+    net: ws
+    path: /linkws
+    port: 443
+    ps: 🇺🇸 US_319
+    scy: ''
+    sni: ''
+    tls: tls
+    type: ''
+    v: '2'
+  server: 172.67.131.17
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
+  ws-opts:
+    headers:
+      Host: hms19.best-tizi.top
+    path: /linkws
+- name: US_United States_trojan_1087
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.61.44.165
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: chacha20-ietf-poly1305
   name: US_United States_ss_1091
-  password: amazonskr05
-  port: 443
-  server: 13.212.175.136
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_10107
-  password: '1234'
-  port: 1234
-  server: 54.255.247.220
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_10114
-  password: amazonskr05
-  port: 443
-  server: 54.191.46.142
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_10115
-  password: amazonskr05
-  port: 443
-  server: 13.209.80.28
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: US_United States_ss_10116
-  password: amazonskr05
-  port: 443
-  server: 18.179.20.184
-  tfo: false
-  type: ss
-- allowInsecure: ''
-  name: US_United States_trojan_112
-  network: ws
-  password: 4d04b30c-ef7b-4a07-8f9e-f581ec171f8a
-  port: 443
-  server: 104.21.69.41
-  skip-cert-verify: false
-  sni: uS7-06.890602.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: us7-06.890602.xyz
-    path: /Zseq8mE8wMzbGFtV
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_116
   password: wUIFQcMM2K2VYdVz8GKyeE
   port: 443
   server: 13.212.90.20
   type: ss
-- name: US_United States_trojan_1130
-  network: ws
-  password: aTArbZ2F0E
-  port: 443
-  server: 172.66.168.209
-  sni: uSa-vp-27.bLAzECLOUD.SITE
-  type: trojan
-  ws-opts:
-    headers:
-      Host: uSa-vp-27.bLAzECLOUD.SITE
-    path: /linkvkws
 - cipher: aes-256-cfb
-  name: US_United States_ss_1169
+  name: US_United States_ss_1092
   password: amazonskr05
   port: 443
   server: 43.207.233.28
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1191
+  name: US_United States_ss_10113
   password: amazonskr05
   port: 443
   server: 54.249.151.205
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1192
+  name: US_United States_ss_10114
   password: amazonskr05
   port: 443
   server: 57.180.253.62
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1193
+  name: US_United States_ss_10115
   password: amazonskr05
   port: 443
   server: 52.78.214.206
@@ -16175,19 +16328,20 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1086
+  - US_United States_vmess_1069
+  - US_United States_vmess_1072
+  - US_United States_vmess_1073
+  - US_United States_vmess_1076
+  - US_United States_vmess_1077
+  - US_United States_vmess_1082
+  - US_United States_vmess_1083
+  - US_United States_vmess_1086
+  - US_United States_trojan_1087
   - US_United States_ss_1091
-  - US_United States_ss_10107
+  - US_United States_ss_1092
+  - US_United States_ss_10113
   - US_United States_ss_10114
   - US_United States_ss_10115
-  - US_United States_ss_10116
-  - US_United States_trojan_112
-  - US_United States_ss_116
-  - US_United States_trojan_1130
-  - US_United States_ss_1169
-  - US_United States_ss_1191
-  - US_United States_ss_1192
-  - US_United States_ss_1193
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17197,19 +17351,20 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1086
+  - US_United States_vmess_1069
+  - US_United States_vmess_1072
+  - US_United States_vmess_1073
+  - US_United States_vmess_1076
+  - US_United States_vmess_1077
+  - US_United States_vmess_1082
+  - US_United States_vmess_1083
+  - US_United States_vmess_1086
+  - US_United States_trojan_1087
   - US_United States_ss_1091
-  - US_United States_ss_10107
+  - US_United States_ss_1092
+  - US_United States_ss_10113
   - US_United States_ss_10114
   - US_United States_ss_10115
-  - US_United States_ss_10116
-  - US_United States_trojan_112
-  - US_United States_ss_116
-  - US_United States_trojan_1130
-  - US_United States_ss_1169
-  - US_United States_ss_1191
-  - US_United States_ss_1192
-  - US_United States_ss_1193
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
