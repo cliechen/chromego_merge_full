@@ -15006,39 +15006,29 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- allowInsecure: ''
-  name: US_United States_trojan_1011
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.72.227.235
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  tls: true
-  type: trojan
 - cipher: aes-256-cfb
-  name: US_United States_ss_1023
+  name: US_United States_ss_1080
   password: amazonskr05
   port: 443
   server: 43.207.233.28
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1044
+  name: US_United States_ss_10102
   password: amazonskr05
   port: 443
   server: 54.249.151.205
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1045
+  name: US_United States_ss_10103
   password: amazonskr05
   port: 443
   server: 57.180.253.62
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_1046
+  name: US_United States_ss_10104
   password: amazonskr05
   port: 443
   server: 52.78.214.206
@@ -16105,11 +16095,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1011
-  - US_United States_ss_1023
-  - US_United States_ss_1044
-  - US_United States_ss_1045
-  - US_United States_ss_1046
+  - US_United States_ss_1080
+  - US_United States_ss_10102
+  - US_United States_ss_10103
+  - US_United States_ss_10104
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17119,11 +17108,10 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1011
-  - US_United States_ss_1023
-  - US_United States_ss_1044
-  - US_United States_ss_1045
-  - US_United States_ss_1046
+  - US_United States_ss_1080
+  - US_United States_ss_10102
+  - US_United States_ss_10103
+  - US_United States_ss_10104
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
