@@ -15006,6 +15006,41 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
+- cipher: aes-256-cfb
+  name: US_United States_ss_1111
+  password: amazonskr05
+  port: 443
+  server: 13.212.117.64
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1122
+  password: amazonskr05
+  port: 443
+  server: 34.217.76.113
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1159
+  password: amazonskr05
+  port: 443
+  server: 47.128.150.221
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: US_United States_ss_1176
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.107.226.14
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: US_United States_ss_1178
+  password: amazonskr05
+  port: 443
+  server: 13.124.153.152
+  tfo: false
+  type: ss
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16067,6 +16102,11 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_1111
+  - US_United States_ss_1122
+  - US_United States_ss_1159
+  - US_United States_ss_1176
+  - US_United States_ss_1178
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17076,6 +17116,11 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
+  - US_United States_ss_1111
+  - US_United States_ss_1122
+  - US_United States_ss_1159
+  - US_United States_ss_1176
+  - US_United States_ss_1178
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
