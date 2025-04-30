@@ -15006,107 +15006,46 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: US_United States_trojan_1068
-  password: 05f1368b-1743-48a3-b2a5-56343e64e7be
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1068
+  network: ws
   port: 443
-  server: sg.lyyyds.club
-  skip-cert-verify: false
-  sni: sg.lyyyds.club
-  type: trojan
+  server: 1ddfa4a6-svlb40-tdad3n-1lv9y.sea.plebai.net
+  servername: 1ddfa4a6-svlb40-tdad3n-1lv9y.sea.plebai.net
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vmess
   udp: true
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1076
-  network: ws
-  port: 443
-  server: 193.122.58.158
-  servername: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  uuid: 9dfb2c9a-b7fd-11ed-a66b-f23c913c8d2b
   ws-opts:
     headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1095
-  network: ws
-  port: 443
-  server: 172.67.135.62
-  servername: hknbyivfffj.site
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: hknbyivfffj.site
-    path: /rbqqvws
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1099
-  network: ws
-  port: 443
-  server: 104.21.6.201
-  servername: hknbyivfffj.site
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: hknbyivfffj.site
-    path: /rbqqvws
-- alterId: '0'
-  cipher: auto
-  name: US_United States_vmess_10102
-  network: ws
-  port: '443'
-  server: 104.18.149.76
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      host: us.kkp.me.eu.org
-    path: /aa
-- allowInsecure: ''
-  name: US_United States_trojan_10105
-  network: ws
-  password: 075b9690-f1cc-4d0c-aa1e-f80f07f09815
-  port: 443
-  server: 172.67.204.177
-  skip-cert-verify: false
-  sni: 4o.191292.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 4o.191292.xyz
-    path: /w8oHMEEc9tWBZ57XYkE
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: aes-256-cfb
-  name: US_United States_ss_10106
+  name: US_United States_ss_1082
   password: amazonskr05
   port: 443
   server: 13.230.239.48
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10123
+  name: US_United States_ss_1099
   password: amazonskr05
   port: 443
   server: 43.201.51.140
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10124
+  name: US_United States_ss_10100
   password: amazonskr05
   port: 443
   server: 13.113.222.121
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10125
+  name: US_United States_ss_10101
   password: amazonskr05
   port: 443
   server: 13.212.82.255
@@ -15114,7 +15053,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_10130
+  name: US_United States_vmess_10106
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -15122,7 +15061,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: US_United States_trojan_10137
+- name: US_United States_trojan_10115
+  password: 05f1368b-1743-48a3-b2a5-56343e64e7be
+  port: 443
+  server: sg.lyyyds.club
+  skip-cert-verify: false
+  sni: sg.lyyyds.club
+  type: trojan
+  udp: true
+- name: US_United States_trojan_10116
   network: ws
   password: '123'
   port: 2053
@@ -15135,6 +15082,72 @@ proxies:
     headers:
       Host: epeius001-ea1.pages.dev
     path: /?ed=2560
+- cipher: aes-256-cfb
+  delay: 757
+  name: US_United States_ss_1168
+  password: amazonskr05
+  port: 443
+  server: 54.178.9.230
+  type: ss
+- name: US_United States_trojan_1172
+  network: ws
+  password: 072f4db4-d89d-420d-9d9e-045ed8d5c9cc
+  port: 443
+  server: 104.21.57.88
+  skip-cert-verify: false
+  sni: 10tyu.iran.pp.ua
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 10tyu.iran.pp.ua
+    path: /VEP415T5mby2DulPWRIwOavJd
+- cipher: aes-256-cfb
+  delay: 475
+  name: US_United States_ss_1183
+  password: amazonskr05
+  port: 443
+  server: 34.219.163.102
+  type: ss
+- alterId: 2
+  cipher: auto
+  delay: 1137
+  name: US_United States_vmess_1193
+  port: 443
+  server: 117ee84f-svsps0-ta64ri-1qzi1.losb.tcpbbr.net
+  servername: 117ee84f-svsps0-ta64ri-1qzi1.losb.tcpbbr.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 8f99107c-f091-11ee-9935-f23c9164ca5d
+- name: US_United States_trojan_1194
+  network: ws
+  password: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  port: 443
+  server: 104.21.15.232
+  skip-cert-verify: false
+  sni: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ab2c7f0b-bf1b-4eb3-9884-256f4de3d.2030.pp.ua
+    path: '%2F4p35eUnmGxQ8YJFJxz'
+- delay: 1207
+  name: US_United States_trojan_1197
+  password: de86132b-111e-4f48-acfc-08365b03b442
+  port: 48004
+  server: 4e9cd08262afaeb4b08b20b4840de5cf.v1.cac.node-is.green
+  skip-cert-verify: true
+  sni: tw1.bilibili.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  delay: 881
+  name: US_United States_ss_11104
+  password: amazonskr05
+  port: 443
+  server: 13.124.130.158
+  type: ss
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16196,18 +16209,21 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1068
-  - US_United States_vmess_1076
-  - US_United States_vmess_1095
-  - US_United States_vmess_1099
-  - US_United States_vmess_10102
-  - US_United States_trojan_10105
-  - US_United States_ss_10106
-  - US_United States_ss_10123
-  - US_United States_ss_10124
-  - US_United States_ss_10125
-  - US_United States_vmess_10130
-  - US_United States_trojan_10137
+  - US_United States_vmess_1068
+  - US_United States_ss_1082
+  - US_United States_ss_1099
+  - US_United States_ss_10100
+  - US_United States_ss_10101
+  - US_United States_vmess_10106
+  - US_United States_trojan_10115
+  - US_United States_trojan_10116
+  - US_United States_ss_1168
+  - US_United States_trojan_1172
+  - US_United States_ss_1183
+  - US_United States_vmess_1193
+  - US_United States_trojan_1194
+  - US_United States_trojan_1197
+  - US_United States_ss_11104
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17217,18 +17233,21 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_trojan_1068
-  - US_United States_vmess_1076
-  - US_United States_vmess_1095
-  - US_United States_vmess_1099
-  - US_United States_vmess_10102
-  - US_United States_trojan_10105
-  - US_United States_ss_10106
-  - US_United States_ss_10123
-  - US_United States_ss_10124
-  - US_United States_ss_10125
-  - US_United States_vmess_10130
-  - US_United States_trojan_10137
+  - US_United States_vmess_1068
+  - US_United States_ss_1082
+  - US_United States_ss_1099
+  - US_United States_ss_10100
+  - US_United States_ss_10101
+  - US_United States_vmess_10106
+  - US_United States_trojan_10115
+  - US_United States_trojan_10116
+  - US_United States_ss_1168
+  - US_United States_trojan_1172
+  - US_United States_ss_1183
+  - US_United States_vmess_1193
+  - US_United States_trojan_1194
+  - US_United States_trojan_1197
+  - US_United States_ss_11104
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
