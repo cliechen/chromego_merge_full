@@ -15006,236 +15006,63 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- alterId: '0'
-  cipher: auto
-  name: US_United States_vmess_1067
-  network: ws
-  port: '80'
-  server: 104.21.32.242
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0a28b420-4f7c-43ad-a29e-80068ce08263
-  ws-opts:
-    headers:
-      Host: m11sdfg.890604.dpdns.org
-    path: /lhU8ShsoPZlulnnYPb86csp
-  xudp: true
 - alpn:
   - http/1.1
-  name: US_United States_trojan_1068
-  network: ws
-  password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
-  port: '443'
-  server: 104.21.32.1
-  skip-cert-verify: false
-  sni: 10r.iran1912.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
-    path: /VEP415T5mby2DulPWRIwOavJd
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1069
+  name: US_United States_trojan_1067
   network: tcp
-  password: telegram-id-privatevpns
-  port: '22222'
-  server: 18.157.170.126
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1070
-  network: ws
-  password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
-  port: '443'
-  server: 104.21.16.1
-  skip-cert-verify: false
-  sni: 10r.iran1912.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /VEP415T5mby2DulPWRIwOavJd
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1071
-  network: ws
-  password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
-  port: '443'
-  server: 104.21.80.1
-  skip-cert-verify: false
-  sni: 10r.iran1912.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /VEP415T5mby2DulPWRIwOavJd
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1072
-  network: ws
-  password: 9e7caa3b-ca9c-40ba-9ea0-f0c992359239
-  port: '443'
-  server: 104.21.86.140
-  skip-cert-verify: false
-  sni: m2rrrty.777219.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /duJhdsnTCbijwHNYeMcCs9
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1073
-  network: tcp
-  password: telegram-id-privatevpns
-  port: '22222'
-  server: 18.185.39.157
+  password: telegram-id-directvpn
+  port: '22223'
+  server: 52.47.159.179
   skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1077
-  network: ws
-  port: 80
-  server: m11sdfg.890604.dpdns.org
-  servername: m11sdfg.890604.dpdns.org
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0a28b420-4f7c-43ad-a29e-80068ce08263
-  ws-opts:
-    headers:
-      Host: m11sdfg.890604.dpdns.org
-    path: /lhU8ShsoPZlulnnYPb86csp
-  xudp: true
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1082
-  network: ws
-  password: 114ad614-fe6c-4422-b0af-be6161190d7a
-  port: '443'
-  server: 104.21.61.154
-  skip-cert-verify: false
-  sni: DDrt.191266.Xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /By7cEmOrNRS58yeduy9AOG
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1083
-  network: ws
-  password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
-  port: '443'
-  server: 104.21.64.1
-  skip-cert-verify: false
-  sni: 10r.iran1912.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /VEP415T5mby2DulPWRIwOavJd
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1085
-  network: ws
-  password: 4069c35c-54ea-48ee-9ffa-05d9a0302043
-  port: '443'
-  server: 104.21.71.131
-  skip-cert-verify: false
-  sni: m5rt.999854.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /GawgMugyRDAQXp6e0CScyGqcQZW
-- alpn:
-  - http/1.1
-  name: US_United States_trojan_1087
-  network: ws
-  password: ca48571a-403f-44b9-b2a6-e17c36d7cacc
-  port: '443'
-  server: 104.21.112.1
-  skip-cert-verify: false
-  sni: 10r.iran1912.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /VEP415T5mby2DulPWRIwOavJd
-- alterId: 0
-  cipher: auto
-  name: US_United States_vmess_1091
+  name: US_United States_vmess_1069
   network: ws
   port: 443
-  server: m8uuujiddvb.457.pp.ua
-  servername: m8uuujiddvb.457.pp.ua
-  skip-cert-verify: true
-  tfo: false
+  server: cloudgetservice.mcloudservice.site
+  skip-cert-verify: false
   tls: true
   type: vmess
   udp: true
-  uuid: b30a50bc-0f63-422d-bbd6-8c790c0abb4d
+  uuid: 96e44a22-4f5c-48f9-99d9-f2c1985dd5b9
   ws-opts:
     headers:
-      Host: m8uuujiddvb.457.pp.ua
-    path: /OhijtPrXs2pASR866TVMXPAl
+      Host: Usa-Vp-192.blazEcloudMAin.SitE
+    path: /linkvkws
+  xudp: true
 - cipher: aes-256-cfb
-  name: US_United States_ss_1093
+  name: US_United States_ss_1072
   password: awsps0501
   port: 443
   server: 18.236.149.239
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: US_United States_ss_10111
+  name: US_United States_ss_1090
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.114.114.108
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10114
+  name: US_United States_ss_1093
   password: awsps0501
   port: 443
   server: 52.199.191.145
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10115
+  name: US_United States_ss_1094
   password: awsps0501
   port: 443
   server: 3.35.231.158
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: US_United States_ss_10116
+  name: US_United States_ss_1095
   password: awsps0501
   port: 443
   server: 52.197.184.25
@@ -15243,7 +15070,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_10123
+  name: US_United States_vmess_10102
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -15251,7 +15078,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: US_United States_trojan_10126
+- name: US_United States_trojan_10105
   network: ws
   password: Aimer
   port: 443
@@ -15264,6 +15091,180 @@ proxies:
     headers:
       Host: epccj.ambercc.filegear-sg.me
     path: /?ed=2560
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_1140
+  network: tcp
+  password: telegram-id-privatevpns
+  port: '22222'
+  server: 13.51.117.245
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_1142
+  network: ws
+  password: 5453ae26-250d-4e79-b4ec-016baf806865
+  port: '443'
+  server: 104.21.23.162
+  skip-cert-verify: false
+  sni: D05F4aA7-92B1-a659-E3b9-695Dd2870B3c.131.Pp.UA
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /OYzPAeaZdXUq2d6J3gc4aj
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_1143
+  network: ws
+  password: a926af96-2cfe-4169-8107-6c5f0d74a938
+  port: '443'
+  server: 104.21.112.1
+  skip-cert-verify: false
+  sni: zsde.7777128.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/53.0.2785.143 Safari/537.36
+    path: /5NB3RVAWa3Uo1P5zFPkui
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_1148
+  network: ws
+  password: 4f435a3a-dfb8-4c90-b637-8df8c5d44550
+  port: '443'
+  server: 172.67.135.37
+  skip-cert-verify: false
+  sni: m9rrrfgh.459.pp.ua
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /l6lvY4hFZriQDBimbKYmPIggy
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_1149
+  network: tcp
+  password: telegram-id-privatevpns
+  port: '22222'
+  server: 52.29.199.75
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  name: US_United States_trojan_1152
+  network: ws
+  password: FBXN6Z7Wfizs
+  port: '2053'
+  server: tasnim.andishehnegariran.ir
+  skip-cert-verify: false
+  sni: tasnim.andishehnegariran.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /🆔@M3HDIO1
+- name: US_United States_trojan_1153
+  network: tcp
+  password: q8eDApT3ExAIX6SDK7pyexT9COyRXwuIclY0ZDaNF3p8ZAYCeSDA52BB2Z7w3zFlSa94z
+  port: '18332'
+  server: 154.17.21.41
+  skip-cert-verify: false
+  sni: bedsheet.homeofbrave.net
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  client-fingerprint: randomized
+  name: US_United States_trojan_1157
+  network: ws
+  password: Aimer
+  port: '2096'
+  server: 167.68.4.10
+  skip-cert-verify: false
+  sni: epccj.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_1158
+  network: ws
+  password: 9e7caa3b-ca9c-40ba-9ea0-f0c992359239
+  port: '443'
+  server: 172.67.220.93
+  skip-cert-verify: false
+  sni: m2rrrty.777219.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /duJhdsnTCbijwHNYeMcCs9
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_1159
+  network: ws
+  password: a926af96-2cfe-4169-8107-6c5f0d74a938
+  port: '443'
+  server: 104.21.32.1
+  skip-cert-verify: false
+  sni: zsde.7777128.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /5NB3RVAWa3Uo1P5zFPkui
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_1160
+  network: ws
+  password: d889b4c8-dab9-4b0c-932b-e4071c727308
+  port: '443'
+  server: 104.21.40.251
+  skip-cert-verify: false
+  sni: M6ghjK.777169.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /vFeLkPJXEksjERPwvxRA
+- name: US_United States_trojan_1164
+  network: ws
+  password: ad4a124c-12fb-4467-9ad0-dc6d9b509ac0
+  port: 443
+  server: 104.21.80.1
+  skip-cert-verify: false
+  sni: 7bhui.191262.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 7bhui.191262.xyz
+    path: '%2FwGgR8FyAGgRCKSiyxgvJgLl'
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16325,26 +16326,27 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_1067
-  - US_United States_trojan_1068
-  - US_United States_trojan_1069
-  - US_United States_trojan_1070
-  - US_United States_trojan_1071
-  - US_United States_trojan_1072
-  - US_United States_trojan_1073
-  - US_United States_vmess_1077
-  - US_United States_trojan_1082
-  - US_United States_trojan_1083
-  - US_United States_trojan_1085
-  - US_United States_trojan_1087
-  - US_United States_vmess_1091
+  - US_United States_trojan_1067
+  - US_United States_vmess_1069
+  - US_United States_ss_1072
+  - US_United States_ss_1090
   - US_United States_ss_1093
-  - US_United States_ss_10111
-  - US_United States_ss_10114
-  - US_United States_ss_10115
-  - US_United States_ss_10116
-  - US_United States_vmess_10123
-  - US_United States_trojan_10126
+  - US_United States_ss_1094
+  - US_United States_ss_1095
+  - US_United States_vmess_10102
+  - US_United States_trojan_10105
+  - US_United States_trojan_1140
+  - US_United States_trojan_1142
+  - US_United States_trojan_1143
+  - US_United States_trojan_1148
+  - US_United States_trojan_1149
+  - US_United States_trojan_1152
+  - US_United States_trojan_1153
+  - US_United States_trojan_1157
+  - US_United States_trojan_1158
+  - US_United States_trojan_1159
+  - US_United States_trojan_1160
+  - US_United States_trojan_1164
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17354,26 +17356,27 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_1067
-  - US_United States_trojan_1068
-  - US_United States_trojan_1069
-  - US_United States_trojan_1070
-  - US_United States_trojan_1071
-  - US_United States_trojan_1072
-  - US_United States_trojan_1073
-  - US_United States_vmess_1077
-  - US_United States_trojan_1082
-  - US_United States_trojan_1083
-  - US_United States_trojan_1085
-  - US_United States_trojan_1087
-  - US_United States_vmess_1091
+  - US_United States_trojan_1067
+  - US_United States_vmess_1069
+  - US_United States_ss_1072
+  - US_United States_ss_1090
   - US_United States_ss_1093
-  - US_United States_ss_10111
-  - US_United States_ss_10114
-  - US_United States_ss_10115
-  - US_United States_ss_10116
-  - US_United States_vmess_10123
-  - US_United States_trojan_10126
+  - US_United States_ss_1094
+  - US_United States_ss_1095
+  - US_United States_vmess_10102
+  - US_United States_trojan_10105
+  - US_United States_trojan_1140
+  - US_United States_trojan_1142
+  - US_United States_trojan_1143
+  - US_United States_trojan_1148
+  - US_United States_trojan_1149
+  - US_United States_trojan_1152
+  - US_United States_trojan_1153
+  - US_United States_trojan_1157
+  - US_United States_trojan_1158
+  - US_United States_trojan_1159
+  - US_United States_trojan_1160
+  - US_United States_trojan_1164
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
