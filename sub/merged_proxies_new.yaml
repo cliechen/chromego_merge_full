@@ -15006,64 +15006,111 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- cipher: aes-128-cfb
-  name: US_United States_ssr_1034
-  obfs: plain
-  obfs-param: ''
-  password: shadowsocks
-  port: 443
-  protocol: origin
-  protocol-param: ''
-  server: 184.170.241.194
-  type: ssr
-  udp: true
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: US_United States_vmess_1035
+  - http/1.1
+  name: US_United States_trojan_1070
   network: ws
-  port: '2082'
-  server: 172.67.214.33
+  password: 2734c14b-e4ce-48b3-b3de-f80788cb4c47
+  port: 443
+  server: 104.21.84.58
   skip-cert-verify: false
-  tls: false
+  sni: XXXcddDe.IRaN2035.dpdNs.orG
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /bdtuD5eD7Q29WxRG8DqNAB
+- alpn:
+  - http/1.1
+  name: US_United States_trojan_1071
+  network: ws
+  password: c8eac4b7-95ba-4ce0-920d-c3279eb3b391
+  port: 443
+  server: 172.67.138.187
+  skip-cert-verify: false
+  sni: CdVftY.7282728.xYz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /ptGwaGzcA4KNAXX
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_1073
+  network: ws
+  port: 443
+  server: 104.21.42.243
+  servername: sgfqkqmltcy.site
+  tls: true
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
+- alterId: '0'
+  cipher: auto
+  name: US_United States_vmess_1074
+  network: ws
+  port: 443
+  server: sgfqkqmltcy.site
+  skip-cert-verify: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 2f821152-c3e9-4074-9185-2790e7425f42
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   ws-opts:
     headers:
-      Host: cs.flha.ru
-    path: /
+      Host: sgfqkqmltcy.site
+    path: /rbqqvws
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: randomized
-  name: US_United States_trojan_1036
+- cipher: aes-256-cfb
+  name: US_United States_ss_1075
+  password: awsps0501
+  port: 443
+  server: 43.207.198.128
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1091
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6666
+  server: 3.36.68.170
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: US_United States_vmess_10103
+  network: kcp
+  port: '53893'
+  server: 47.74.41.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+- name: US_United States_trojan_10120
   network: ws
-  password: T@_WvT8Ho@LW%w_,
-  port: '2053'
-  server: 172.66.44.214
-  skip-cert-verify: false
-  sni: NOp-55q.pAgEs.dEv
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 140.238.212.95
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /trGPZDfetEwuO25SAs?ed=2560
-- name: US_United States_trojan_1038
-  password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-  port: 443
-  server: 1b58d0f3-swgsg0-t1bnjq-1krtb.la3.tcpbbr.net
-  tls: true
-  type: trojan
-- name: US_United States_trojan_1039
+      Host: icecream.955850.xyz
+    path: /proxyip=140.238.212.95:443&proxyIP=null
+- name: US_United States_trojan_10131
   network: ws
   password: bpb-trojan
   port: 443
-  server: sg.madison.eu.org
+  server: us.madison.eu.org
   skip-cert-verify: true
   sni: skwygx.top
   type: trojan
@@ -15072,7 +15119,85 @@ proxies:
     headers:
       Host: skwygx.top
     path: /tr?ed=2560
-- name: US_United States_trojan_1042
+- name: US_United States_trojan_10144
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 162.159.153.217
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=162.159.153.217:443&proxyIP=null
+- name: US_United States_trojan_10145
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 162.159.152.205
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=162.159.152.205:443&proxyIP=null
+- name: US_United States_trojan_10146
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 192.0.54.194
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=192.0.54.194:443&proxyIP=null
+- name: US_United States_trojan_10147
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 160.79.105.81
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=160.79.105.81:443&proxyIP=null
+- name: US_United States_trojan_10149
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 162.159.153.209
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=162.159.153.209:443&proxyIP=null
+- name: US_United States_trojan_10150
+  network: ws
+  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
+  port: 443
+  server: 192.0.54.184
+  skip-cert-verify: true
+  sni: icecream.955850.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: icecream.955850.xyz
+    path: /proxyip=192.0.54.184:443&proxyIP=null
+- name: US_United States_trojan_1166
   network: ws
   password: 70776bb4-d791-4cbd-9c9b-c76e937f9e60
   port: 443
@@ -15086,134 +15211,20 @@ proxies:
     headers:
       Host: Xxs345rf.857856.xYZ
     path: /71M8Ov1I5Gk9247fHC0XGZG6
-- cipher: aes-256-cfb
-  name: US_United States_ss_1077
-  password: awsps0501
-  port: 443
-  server: 43.207.198.128
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: US_United States_ss_1092
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 6666
-  server: 3.36.68.170
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_10104
-  network: kcp
-  port: '53893'
-  server: 47.74.41.147
-  servername: ''
+  name: US_United States_vmess_1168
+  network: ws
+  port: 2082
+  server: 172.67.214.33
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- name: US_United States_trojan_10121
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 140.238.212.95
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
+  uuid: 2f821152-c3e9-4074-9185-2790e7425f42
   ws-opts:
     headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=140.238.212.95:443&proxyIP=null
-- name: US_United States_trojan_10132
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: us.madison.eu.org
-  skip-cert-verify: true
-  sni: skwygx.top
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: skwygx.top
-    path: /tr?ed=2560
-- name: US_United States_trojan_10145
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 162.159.153.217
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=162.159.153.217:443&proxyIP=null
-- name: US_United States_trojan_10146
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 162.159.152.205
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=162.159.152.205:443&proxyIP=null
-- name: US_United States_trojan_10147
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 192.0.54.194
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=192.0.54.194:443&proxyIP=null
-- name: US_United States_trojan_10148
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 160.79.105.81
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=160.79.105.81:443&proxyIP=null
-- name: US_United States_trojan_10150
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 162.159.153.209
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=162.159.153.209:443&proxyIP=null
-- name: US_United States_trojan_10151
-  network: ws
-  password: 6884d714-d3c4-4b49-aa20-767ea92837d6
-  port: 443
-  server: 192.0.54.184
-  skip-cert-verify: true
-  sni: icecream.955850.xyz
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: icecream.955850.xyz
-    path: /proxyip=192.0.54.184:443&proxyIP=null
+      Host: cs.flha.ru
+    path: /
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16275,23 +16286,23 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ssr_1034
-  - US_United States_vmess_1035
-  - US_United States_trojan_1036
-  - US_United States_trojan_1038
-  - US_United States_trojan_1039
-  - US_United States_trojan_1042
-  - US_United States_ss_1077
-  - US_United States_ss_1092
-  - US_United States_vmess_10104
-  - US_United States_trojan_10121
-  - US_United States_trojan_10132
+  - US_United States_trojan_1070
+  - US_United States_trojan_1071
+  - US_United States_vmess_1073
+  - US_United States_vmess_1074
+  - US_United States_ss_1075
+  - US_United States_ss_1091
+  - US_United States_vmess_10103
+  - US_United States_trojan_10120
+  - US_United States_trojan_10131
+  - US_United States_trojan_10144
   - US_United States_trojan_10145
   - US_United States_trojan_10146
   - US_United States_trojan_10147
-  - US_United States_trojan_10148
+  - US_United States_trojan_10149
   - US_United States_trojan_10150
-  - US_United States_trojan_10151
+  - US_United States_trojan_1166
+  - US_United States_vmess_1168
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17301,23 +17312,23 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_ssr_1034
-  - US_United States_vmess_1035
-  - US_United States_trojan_1036
-  - US_United States_trojan_1038
-  - US_United States_trojan_1039
-  - US_United States_trojan_1042
-  - US_United States_ss_1077
-  - US_United States_ss_1092
-  - US_United States_vmess_10104
-  - US_United States_trojan_10121
-  - US_United States_trojan_10132
+  - US_United States_trojan_1070
+  - US_United States_trojan_1071
+  - US_United States_vmess_1073
+  - US_United States_vmess_1074
+  - US_United States_ss_1075
+  - US_United States_ss_1091
+  - US_United States_vmess_10103
+  - US_United States_trojan_10120
+  - US_United States_trojan_10131
+  - US_United States_trojan_10144
   - US_United States_trojan_10145
   - US_United States_trojan_10146
   - US_United States_trojan_10147
-  - US_United States_trojan_10148
+  - US_United States_trojan_10149
   - US_United States_trojan_10150
-  - US_United States_trojan_10151
+  - US_United States_trojan_1166
+  - US_United States_vmess_1168
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
