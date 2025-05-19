@@ -15121,6 +15121,13 @@ proxies:
   sni: mg7.gy6688.xyz
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1112
+  password: awsps0501
+  port: 443
+  server: 35.91.97.85
+  tfo: false
+  type: ss
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16193,6 +16200,7 @@ proxy-groups:
   - US_United States_trojan_10132
   - US_United States_trojan_10133
   - US_United States_trojan_10134
+  - US_United States_ss_1112
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17213,6 +17221,7 @@ proxy-groups:
   - US_United States_trojan_10132
   - US_United States_trojan_10133
   - US_United States_trojan_10134
+  - US_United States_ss_1112
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
