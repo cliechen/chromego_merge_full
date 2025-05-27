@@ -15045,6 +15045,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+- cipher: aes-256-cfb
+  name: US_United States_ss_1175
+  password: awsps0501
+  port: 443
+  server: 35.165.193.21
+  tfo: false
+  type: ss
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16110,6 +16117,7 @@ proxy-groups:
   - US_United States_ss_1075
   - US_United States_ss_1089
   - US_United States_vmess_1098
+  - US_United States_ss_1175
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17123,6 +17131,7 @@ proxy-groups:
   - US_United States_ss_1075
   - US_United States_ss_1089
   - US_United States_vmess_1098
+  - US_United States_ss_1175
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
