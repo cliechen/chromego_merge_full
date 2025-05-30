@@ -15123,6 +15123,27 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
+- cipher: aes-256-cfb
+  name: US_United States_ss_1112
+  password: awsps0501
+  port: 443
+  server: 34.212.26.32
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1122
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 52.195.15.105
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: US_United States_ss_1125
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 9898
+  server: 3.38.139.172
+  tfo: false
+  type: ss
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16196,6 +16217,9 @@ proxy-groups:
   - US_United States_trojan_1045
   - US_United States_trojan_1046
   - US_United States_trojan_1047
+  - US_United States_ss_1112
+  - US_United States_ss_1122
+  - US_United States_ss_1125
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17217,6 +17241,9 @@ proxy-groups:
   - US_United States_trojan_1045
   - US_United States_trojan_1046
   - US_United States_trojan_1047
+  - US_United States_ss_1112
+  - US_United States_ss_1122
+  - US_United States_ss_1125
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
