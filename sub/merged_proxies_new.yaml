@@ -15064,6 +15064,13 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: US_United States_ss_1112
+  password: qawszxc123
+  port: 443
+  server: 47.129.170.255
+  tfo: false
+  type: ss
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16132,6 +16139,7 @@ proxy-groups:
   - US_United States_ss_1025
   - US_United States_trojan_1044
   - US_United States_trojan_1045
+  - US_United States_ss_1112
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17148,6 +17156,7 @@ proxy-groups:
   - US_United States_ss_1025
   - US_United States_trojan_1044
   - US_United States_trojan_1045
+  - US_United States_ss_1112
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
