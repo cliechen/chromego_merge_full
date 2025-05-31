@@ -15008,7 +15008,7 @@ proxies:
   down: 55 Mbps
 - alterId: 0
   cipher: auto
-  name: US_United States_vmess_1037
+  name: US_United States_vmess_1067
   network: ws
   port: 443
   server: 38.47.96.30
@@ -15028,21 +15028,7 @@ proxies:
   server: 47.129.170.255
   tfo: false
   type: ss
-- name: US_United States_trojan_10110
-  password: 94Xn93e3F2uOxCE8De8upAAwnlI8ySRRj70Ol6zgYNBjZFCDK5Yaca3D8aT2qaxyEc0DK
-  port: 443
-  server: bapus.koreanbbq.link
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_10111
-  password: YaN8FFNe58nga3xAu3yTx0CSllcSeOnDZOj3SXROCz3S34B9D3F7Ka0aYa8yaxpXCDRKZ
-  port: 18334
-  server: diagram.protocolbuffer.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_United States_trojan_1178
+- name: US_United States_trojan_1078
   network: tcp
   password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
   port: 443
@@ -15050,6 +15036,20 @@ proxies:
   skip-cert-verify: false
   sni: usla.mjt000.com
   type: trojan
+- name: US_United States_trojan_1178
+  password: 94Xn93e3F2uOxCE8De8upAAwnlI8ySRRj70Ol6zgYNBjZFCDK5Yaca3D8aT2qaxyEc0DK
+  port: 443
+  server: bapus.koreanbbq.link
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: US_United States_trojan_1179
+  password: YaN8FFNe58nga3xAu3yTx0CSllcSeOnDZOj3SXROCz3S34B9D3F7Ka0aYa8yaxpXCDRKZ
+  port: 18334
+  server: diagram.protocolbuffer.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: TW_Taiwan_reality_0
   type: vless
   server: 1.162.51.106
@@ -16111,11 +16111,11 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_1037
+  - US_United States_vmess_1067
   - US_United States_ss_1074
-  - US_United States_trojan_10110
-  - US_United States_trojan_10111
+  - US_United States_trojan_1078
   - US_United States_trojan_1178
+  - US_United States_trojan_1179
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
@@ -17125,11 +17125,11 @@ proxy-groups:
   - US_United States_vmess_0999
   - US_United States_vmess_01000
   - US_United States_hysteria_61
-  - US_United States_vmess_1037
+  - US_United States_vmess_1067
   - US_United States_ss_1074
-  - US_United States_trojan_10110
-  - US_United States_trojan_10111
+  - US_United States_trojan_1078
   - US_United States_trojan_1178
+  - US_United States_trojan_1179
   - TW_Taiwan_reality_0
   - TW_Taiwan_reality_1
   - TW_Taiwan_reality_2
